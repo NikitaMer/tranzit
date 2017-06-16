@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Автохимия";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,15 @@
+div.fields.files {
+	display: -webkit-inline-box;
+}
+
+.bx-input-file-desc label {
+	display: -webkit-inline-box;
+    position: absolute;
+    line-height: 2px;
+}
+
+.bx-input-file-desc input {
+	display: -webkit-inline-box;
+    float: left;
+    position: absolute;
+}

@@ -1,0 +1,14 @@
+Array
+(
+    [sessid] => 616e711d1ce507b5dba5f3aa9dc8a112
+    [site_id] => s1
+    [action_var] => action
+    [select_props] => NAME,DELETE,PRICE,QUANTITY,SUM,PROPERTY_CML2_ARTICLE_VALUE
+    [offers_props] => 
+    [quantity_float] => N
+    [count_discount_4_all_quantity] => N
+    [price_vat_show_value] => N
+    [hide_coupon] => Y
+    [use_prepayment] => N
+    [action] => recalculate
+)

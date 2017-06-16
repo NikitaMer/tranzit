@@ -1,0 +1,6 @@
+.raiting {position:relative; height:16px; cursor:pointer; width:83px; float:right; top:-16px; left:-150px;} /* Блок рейтинга*/
+.raiting_blank, #raiting_votes, #raiting_hover {height:16px; position:absolute}
+.raiting_blank { background:url(/raitings.png); width:83px; } /* "Чистые" звездочки */
+.raiting_votes {background:url(/raitings.png) 0 -16px} /*  Закрашенные звездочки */ 
+.raiting_hover {background:url(/raitings.png) 0 -32px; display:none}  /*  звездочки при голосовании */ 
+.raiting_info {margin-left:100px}

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Автомасла";
+$arDirProperties = Array(
+
+);
+?>

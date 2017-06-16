@@ -1,0 +1,12 @@
+syntax: glob
+.idea/
+.hgignore
+local/templates/tranzit-oil_v2/components/bitrix/sale.order.ajax/def.7z
+news/*.jpg
+*_save.php
+sitemap_
+sitemap_*
+local/templates/tranzit-oil_v2/components/bitrix/sale.order.ajax/def/
+avtotovary/antifriz/*‹.jpg
+avtotovary/antifriz/*.jpg
+avtotovary/antifriz/coolstream/*‹.jpg

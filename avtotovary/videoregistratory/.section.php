@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Видеорегистраторы";
+$arDirProperties = Array(
+
+);
+?>

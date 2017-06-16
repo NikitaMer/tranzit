@@ -1,0 +1,8 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("С праздником 1 мая!");
+?>Дорогие друзья! Поздравляем Вас с&nbsp;праздником весны и труда!<br>
+<br>
+Наш график работы на праздничные дни:&nbsp;&nbsp;<br>
+ 30 апреля и 1, 2, 3&nbsp;мая - выходные дни.<br>
+С 4 по 6 мая интернет-магазин работает в обычном режиме.<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Автомасла", 
+		"/avtotovary/avtomasla/", 
+		Array(), 
+		Array("class"=>"avtomasla"), 
+		"" 
+	),
+	Array(
+		"Автохимия", 
+		"/avtotovary/avtohimiya/", 
+		Array(), 
+		Array("class"=>"avtohimiya"), 
+		"" 
+	),
+	Array(
+		"Фильтры", 
+		"/avtotovary/filtry/", 
+		Array(), 
+		Array("class"=>"filtry"), 
+		"" 
+	),
+	Array(
+		"Охлаждающие жидкости", 
+		"/avtotovary/antifriz/", 
+		Array(), 
+		Array("class"=>"antifriz"), 
+		"" 
+	),
+	Array(
+		"Аккумуляторы", 
+		"/avtotovary/akkumulyatory/", 
+		Array(), 
+		Array("class"=>"akkumulyatory"), 
+		"" 
+	),
+	Array(
+		"Аксессуары", 
+		"/avtotovary/aksessuary/", 
+		Array(), 
+		Array("class"=>"aksessuary"), 
+		"" 
+	),
+	Array(
+		"Видеорегистраторы", 
+		"/avtotovary/videoregistratory/", 
+		Array(), 
+		Array("class"=>"dvr"), 
+		"" 
+	),
+	Array(
+		"Грузовые шины", 
+		"/gruzoviye-shiny/", 
+		Array(), 
+		Array("class"=>"gruzoviye-shiny"), 
+		"" 
+	),
+	Array(
+		"Запасные части", 
+		"/avtotovary/zap-chasti/", 
+		Array(), 
+		Array("class"=>"spare-parts"), 
+		"" 
+	)
+);
+?>

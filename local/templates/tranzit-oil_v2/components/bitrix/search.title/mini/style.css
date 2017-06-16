@@ -1,0 +1,26 @@
+div.title-search-result {
+	border:1px solid #c6c6c6;
+	display:none;
+	overflow:hidden;
+	z-index:205;
+    background: #fff;
+    padding: 15px 20px;
+    margin-top: -18px;
+}
+
+ul.title-search-result {
+    background-color:white;
+	border:none;
+	width:10%;
+    }
+
+ul.title-search-result li a {
+	color:black;
+	font-weight:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align:left;
+	white-space:nowrap;
+    font-size: 12px;
+}
+
