@@ -334,7 +334,7 @@ $CSiteController = SiteController::getEntity();
 	</script>
 	<!-- END ME-TALK -->
 	
-	<!-- start reformal -->
+	<!-- start reformal
 	<script type="text/javascript">
 		var reformalOptions = {
 			project_id: 972755,
@@ -354,7 +354,7 @@ $CSiteController = SiteController::getEntity();
 			document.getElementsByTagName('head')[0].appendChild(script);
 		})();
 	</script><noscript><a href="http://reformal.ru"><img src="http://media.reformal.ru/reformal.png" /></a><a href="http://tranzit-shop.reformal.ru">Поругайте нас</a></noscript>
-	<!-- end reformal -->
+	 end reformal -->
 
 <script type="text/javascript" src="https://keplerleads.com/init.js"></script>
 <script type="text/javascript">

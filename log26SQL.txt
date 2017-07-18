@@ -46,3 +46,14 @@ SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,
 SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3688, 0, 5274, 1, 193,1,1);
 SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3724, 0, 3174, 4, 374,1,1);
 SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (2480, 0, 5871, 1, 273,3,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3772, 0, 22168, 1, 1471,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3787, 0, 5871, 1, 273,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (2558, 0, 20553, 1, 442,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (2558, 0, 20570, 1, 473,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3811, 0, 2020, 1, 3380,3,4);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3812, 0, 4978, 1, 1713,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (2747, 0, 19725, 1, 332,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (499, 0, 3736, 1, 0,3,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3856, 0, 3358, 1, 238,1,1);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3778, 0, 7563, 1, 1443,1,2);
+SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3857, 0, 6010, 1, 475,1,2);

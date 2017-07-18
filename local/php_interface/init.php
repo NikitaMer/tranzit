@@ -5,7 +5,8 @@ ini_set('mbstring.internal_encoding', 'utf-8');
 #error_reporting(E_ALL | E_STRICT);
 #ini_set('display_errors', 'On');
 
-define('CATALOG_IBLOCK_ID', 73);
+define('CATALOG_IBLOCK_ID', 73);                  
+define('EXCHANGE_1C_USER', 4);
 
 $aURI = Array();
 global $aURI;
@@ -522,8 +523,16 @@ if (!$mail->send()) {
 }
 
    return true;
-}
+}                       
+                                 
 
+AddEventHandler("iblock", "OnBeforeIBlockElementUpdate", "CancelActiveChange");
+                                                              
+function CancelActiveChange(&$arFields) {
+    if($arFields['MODIFIED_BY'] == EXCHANGE_1C_USER) {
+        unset($arFields['ACTIVE']);    
+    }       
+}  
 
 // if ( ($e!='/shop/cart/') && (substr_count($e,'/bitrix/admin/')<=0) ) require($_SERVER["DOCUMENT_ROOT"]."/neworder.php");
 
