@@ -87,7 +87,22 @@ if(
 
     foreach($arResult["SEARCH"] as $index => $elem)
     {
-        $arResult["SEARCH"][$index]['PRODUCT'] = $ELEMENTS[$elem['ITEM_ID']];
+        $arResult["SEARCH"][$index]['PRODUCT'] = $ELEMENTS[$elem['ITEM_ID']];            
+        
+        //Ссылки на карточку товара 
+        $arSelect = Array("CODE");
+        $arFilter = Array("ID"=>IntVal($elem['ITEM_ID']), "ACTIVE"=>"Y");                              
+        $res = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
+        if($ob = $res->GetNextElement()) { 
+            $arItem = $ob->GetFields();  
+        }                              
+        $db_old_groups = CIBlockElement::GetElementGroups(IntVal($elem['ITEM_ID']));           
+        if($ob_group = $db_old_groups->GetNextElement()) {
+            $ar_group = $ob_group->GetFields();        
+            $ar_codes = explode("/", $ar_group['SECTION_PAGE_URL']);   
+            $new_url = '/'.$ar_codes['1'].'/'.$ar_codes['2'].'/'.$arItem['CODE'].'/';             
+            $arResult["SEARCH"][$index]['URL'] = $new_url;                 
+        }     
     }
 
     unset($ELEMENTS);

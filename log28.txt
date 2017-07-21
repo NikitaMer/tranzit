@@ -63726,3 +63726,3251 @@
     [NOTES] => 3.Оптовые Спец.Цена
 )
 
+Корзина Array
+(
+    [ID] => 92550
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2455
+    [QUANTITY] => 4.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 102.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92555
+    [CALLBACK_FUNC] => 
+    [MODULE] => 
+    [PRODUCT_ID] => 2455
+    [QUANTITY] => 4.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 102.00
+    [WEIGHT] => 
+    [NOTES] => 
+)
+
+Корзина Array
+(
+    [ID] => 92556
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3431
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 226.00
+    [WEIGHT] => 450.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92561
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3420
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 221.00
+    [WEIGHT] => 450.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92553
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2274
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 491.00
+    [WEIGHT] => 5000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92565
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3392
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 173.00
+    [WEIGHT] => 500.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92564
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3349
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 92.00
+    [WEIGHT] => 200.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92558
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6939
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 87.00
+    [WEIGHT] => 80.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92545
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6054
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 488.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92551
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7496
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 153.00
+    [WEIGHT] => 450.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92568
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3150
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 121.00
+    [WEIGHT] => 30.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92546
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20977
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 124.00
+    [WEIGHT] => 48.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92566
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 30395
+    [QUANTITY] => 35.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 58.86
+    [WEIGHT] => 25.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92569
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2960
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 128.25
+    [WEIGHT] => 265.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92567
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3337
+    [QUANTITY] => 7.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 81.60
+    [WEIGHT] => 200.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92563
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3475
+    [QUANTITY] => 15.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 15.30
+    [WEIGHT] => 2.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92562
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3474
+    [QUANTITY] => 15.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 12.75
+    [WEIGHT] => 3.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92573
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5050
+    [QUANTITY] => 6.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 94.32
+    [WEIGHT] => 893.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92570
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5130
+    [QUANTITY] => 12.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 157.39
+    [WEIGHT] => 872.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92541
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2457
+    [QUANTITY] => 8.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 84.96
+    [WEIGHT] => 50.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92579
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7427
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 118.68
+    [WEIGHT] => 910.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92578
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5669
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 141.18
+    [WEIGHT] => 910.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92583
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3534
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 236.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89788
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21218
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 48.32
+    [WEIGHT] => 0.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89804
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3453
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 29.07
+    [WEIGHT] => 50.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89793
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20141
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 90.62
+    [WEIGHT] => 400.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89802
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5287
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 100.43
+    [WEIGHT] => 522.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89803
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3418
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 150.45
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89794
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 8227
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 161.93
+    [WEIGHT] => 410.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89795
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3439
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 219.30
+    [WEIGHT] => 650.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89799
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20149
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 94.52
+    [WEIGHT] => 400.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89800
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5330
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 107.12
+    [WEIGHT] => 120.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89798
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3326
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 84.15
+    [WEIGHT] => 50.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89801
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 4128
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 101.76
+    [WEIGHT] => 124.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89791
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3398
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 147.90
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89796
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7023
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 158.29
+    [WEIGHT] => 169.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 89797
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7024
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 157.50
+    [WEIGHT] => 240.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 85301
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6077
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 428.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 85299
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6367
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 537.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 85298
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2054
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 755.00
+    [WEIGHT] => 1000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92049
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2058
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 3617.00
+    [WEIGHT] => 5000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 85303
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6474
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 266.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92586
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7569
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 342.00
+    [WEIGHT] => 140.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92585
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 4848
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 251.00
+    [WEIGHT] => 120.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92591
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 4814
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 284.00
+    [WEIGHT] => 165.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92593
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19673
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2018.82
+    [WEIGHT] => 3372.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92595
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6370
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 226.00
+    [WEIGHT] => 500.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92572
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3109
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1685.00
+    [WEIGHT] => 5000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92438
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19512
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1383.62
+    [WEIGHT] => 3396.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92392
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5092
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 728.84
+    [WEIGHT] => 3480.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 91947
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 4382
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 31.33
+    [WEIGHT] => 13.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92008
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2384
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 51.00
+    [WEIGHT] => 200.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92447
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 23165
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => N
+    [PRICE] => 30.00
+    [WEIGHT] => 50.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92497
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 8146
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1479.45
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92444
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3106
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1055.56
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 91948
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3538
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 796.95
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92600
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5091
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 226.41
+    [WEIGHT] => 870.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92602
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5130
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 157.39
+    [WEIGHT] => 872.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92597
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5131
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 505.51
+    [WEIGHT] => 3488.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92598
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5144
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 684.50
+    [WEIGHT] => 4300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92448
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20489
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 65.30
+    [WEIGHT] => 80.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92611
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2072
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2355.75
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92628
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 31122
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92629
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1958
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92625
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3531
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 315.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92624
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20078
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1035.25
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92627
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5141
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 166.05
+    [WEIGHT] => 860.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92626
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3429
+    [QUANTITY] => 6.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 187.43
+    [WEIGHT] => 400.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92139
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5092
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 728.84
+    [WEIGHT] => 3480.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92488
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5097
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1013.12
+    [WEIGHT] => 3410.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92259
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3431
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 191.25
+    [WEIGHT] => 450.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92230
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1958
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92632
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1963
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92631
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3376
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 215.48
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92237
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5084
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 785.09
+    [WEIGHT] => 4430.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92140
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5115
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 448.74
+    [WEIGHT] => 3520.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92492
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5217
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 135.30
+    [WEIGHT] => 82.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92495
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7445
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 38.25
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92494
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3454
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 42.08
+    [WEIGHT] => 50.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92142
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3434
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 163.20
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92630
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 30490
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 313.39
+    [WEIGHT] => 40.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92496
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6965
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 100.95
+    [WEIGHT] => 63.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92491
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5397
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 94.80
+    [WEIGHT] => 78.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92489
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3318
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 45.00
+    [WEIGHT] => 200.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92490
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 15319
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 62.93
+    [WEIGHT] => 150.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92141
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3354
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 172.13
+    [WEIGHT] => 250.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92635
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 8433
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 31463.86
+    [WEIGHT] => 180000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92634
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5133
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 626.34
+    [WEIGHT] => 4360.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92649
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6327
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 236.00
+    [WEIGHT] => 500.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92650
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2428
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 101.00
+    [WEIGHT] => 90.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92648
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19281
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 850.00
+    [WEIGHT] => 1000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92651
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3627
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 406.00
+    [WEIGHT] => 1000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92652
+    [CALLBACK_FUNC] => 
+    [MODULE] => 
+    [PRODUCT_ID] => 3627
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 406.00
+    [WEIGHT] => 
+    [NOTES] => 
+)
+
+Корзина Array
+(
+    [ID] => 92641
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5020
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 422.40
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92447
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 23165
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => N
+    [PRICE] => 30.00
+    [WEIGHT] => 50.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92645
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3056
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 323.15
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92638
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3057
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1194.85
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92646
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 8145
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 409.32
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92639
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3072
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1397.55
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92643
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 8362
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 295.00
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92623
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21246
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 50.70
+    [WEIGHT] => 40.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92636
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3002
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 128.25
+    [WEIGHT] => 265.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92654
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5147
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1185.00
+    [WEIGHT] => 3500.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92603
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20132
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 55.00
+    [WEIGHT] => 32.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 89931
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3715
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1456.00
+    [WEIGHT] => 4000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92659
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20137
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 138.00
+    [WEIGHT] => 400.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92679
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 31122
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92683
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1958
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92680
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1955
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92682
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2274
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 416.00
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92684
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20903
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 87.58
+    [WEIGHT] => 120.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92686
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20906
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 87.58
+    [WEIGHT] => 120.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92685
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20908
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 87.58
+    [WEIGHT] => 120.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92670
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21540
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 167.97
+    [WEIGHT] => 0.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92669
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21541
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 194.12
+    [WEIGHT] => 200.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92671
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21547
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 722.96
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92688
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19742
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1377.00
+    [WEIGHT] => 20000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92693
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5092
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 728.84
+    [WEIGHT] => 3480.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92694
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5105
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 350.39
+    [WEIGHT] => 847.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92692
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2274
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 416.00
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92690
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6385
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 147.90
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92691
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5324
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 119.17
+    [WEIGHT] => 338.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92698
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7074
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 225.00
+    [WEIGHT] => 100.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92699
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7078
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 337.00
+    [WEIGHT] => 100.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92702
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5015
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 89.15
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92129
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5017
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 92.09
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92701
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5019
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 94.25
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92700
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5020
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 422.40
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92708
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5021
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 92.09
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92707
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21363
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 254.40
+    [WEIGHT] => 150.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92706
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21510
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 154.59
+    [WEIGHT] => 375.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92703
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19625
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 36.00
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92705
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3110
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 449.00
+    [WEIGHT] => 1000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92704
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3111
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1607.00
+    [WEIGHT] => 4000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92640
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19720
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1034.25
+    [WEIGHT] => 2000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92663
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 8214
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 81.82
+    [WEIGHT] => 40.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92662
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6384
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 146.40
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92665
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7325
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 78.40
+    [WEIGHT] => 250.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92664
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 15444
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 67.20
+    [WEIGHT] => 187.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92657
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5150
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 136.25
+    [WEIGHT] => 870.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92658
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5151
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 448.46
+    [WEIGHT] => 3600.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92661
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5153
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 285.37
+    [WEIGHT] => 780.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92660
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5154
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 970.34
+    [WEIGHT] => 3340.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92667
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3424
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 98.18
+    [WEIGHT] => 100.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92735
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21161
+    [QUANTITY] => 7.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 322.00
+    [WEIGHT] => 900.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92736
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2221
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 798.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92739
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1958
+    [QUANTITY] => 9.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92738
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2057
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2229.75
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92740
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5668
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 73.73
+    [WEIGHT] => 455.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92737
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20575
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1150.00
+    [WEIGHT] => 150.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92741
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2057
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2229.75
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92719
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 29927
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2340.00
+    [WEIGHT] => 16900.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92721
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1958
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92722
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1955
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 96.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92720
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2284
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 903.00
+    [WEIGHT] => 10000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92716
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5096
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 309.01
+    [WEIGHT] => 970.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92715
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5105
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 350.39
+    [WEIGHT] => 847.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92718
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5130
+    [QUANTITY] => 9.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 157.39
+    [WEIGHT] => 872.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92717
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5142
+    [QUANTITY] => 4.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 553.99
+    [WEIGHT] => 3440.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92711
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3412
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 197.63
+    [WEIGHT] => 650.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92714
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7426
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 63.67
+    [WEIGHT] => 455.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92713
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7427
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 118.68
+    [WEIGHT] => 910.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92712
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5668
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 73.73
+    [WEIGHT] => 455.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92723
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5146
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 270.29
+    [WEIGHT] => 874.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92724
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5147
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 919.01
+    [WEIGHT] => 3500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92725
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5153
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 285.37
+    [WEIGHT] => 780.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92726
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5154
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 970.34
+    [WEIGHT] => 3340.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92728
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19784
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 74.30
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92727
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19785
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 198.00
+    [WEIGHT] => 2500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92744
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2271
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 802.00
+    [WEIGHT] => 10000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92030
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5879
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 527.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92749
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6590
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 444.00
+    [WEIGHT] => 300.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92750
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3542
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1233.75
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92755
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2266
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 162.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92756
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2267
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 656.00
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92754
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2274
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 416.00
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92757
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 1960
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 119.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92758
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3368
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 79.05
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92764
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5092
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 728.84
+    [WEIGHT] => 3480.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92760
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21095
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 29.69
+    [WEIGHT] => 100.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92762
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20857
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 35.00
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92761
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 21172
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 118.00
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92763
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 30835
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 82.00
+    [WEIGHT] => 3000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92765
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6948
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1462.22
+    [WEIGHT] => 920.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92767
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3424
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 98.18
+    [WEIGHT] => 100.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 32606
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5107
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1450.00
+    [WEIGHT] => 3388.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92768
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2400
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 104.00
+    [WEIGHT] => 50.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92770
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5107
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1450.00
+    [WEIGHT] => 3388.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92771
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2400
+    [QUANTITY] => 4.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 104.00
+    [WEIGHT] => 50.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92773
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20577
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2210.00
+    [WEIGHT] => 4245.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92772
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6373
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 174.00
+    [WEIGHT] => 500.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92780
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5718
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 285.00
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92781
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6318
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 196.11
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92778
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6363
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 236.46
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92793
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3148
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 102.38
+    [WEIGHT] => 30.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92791
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3149
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 102.38
+    [WEIGHT] => 30.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92792
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3147
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 102.38
+    [WEIGHT] => 30.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92790
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3475
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 15.30
+    [WEIGHT] => 2.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92782
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3424
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 98.18
+    [WEIGHT] => 100.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92783
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3426
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 141.53
+    [WEIGHT] => 200.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92787
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 22456
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 108.00
+    [WEIGHT] => 10.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92789
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 22457
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 108.00
+    [WEIGHT] => 10.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92794
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2077
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2997.00
+    [WEIGHT] => 5000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92746
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20179
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 57.29
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92753
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3376
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 215.48
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92571
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3542
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1233.75
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92581
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 19799
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 231.77
+    [WEIGHT] => 3500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92588
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7380
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 91.84
+    [WEIGHT] => 22.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92710
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5147
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 919.01
+    [WEIGHT] => 3500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92637
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 4128
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 101.76
+    [WEIGHT] => 124.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92796
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2274
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 416.00
+    [WEIGHT] => 5000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92800
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3413
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 169.58
+    [WEIGHT] => 650.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92799
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3433
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 188.70
+    [WEIGHT] => 400.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92798
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5052
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 277.66
+    [WEIGHT] => 3552.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92801
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2457
+    [QUANTITY] => 4.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 100.00
+    [WEIGHT] => 50.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92812
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2276
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 416.00
+    [WEIGHT] => 5300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92820
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3457
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 371.85
+    [WEIGHT] => 450.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92819
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3458
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 371.85
+    [WEIGHT] => 450.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92821
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3455
+    [QUANTITY] => 3.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 371.85
+    [WEIGHT] => 450.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92823
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2039
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1941.75
+    [WEIGHT] => 4000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92824
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 2054
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 566.25
+    [WEIGHT] => 1000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92825
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3623
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 1948.00
+    [WEIGHT] => 4000.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92827
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3420
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 221.00
+    [WEIGHT] => 450.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92829
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 7675
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 33.00
+    [WEIGHT] => 20.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92826
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 20934
+    [QUANTITY] => 1.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 110.00
+    [WEIGHT] => 190.00
+    [NOTES] => Интернет Магазин
+)
+
+Корзина Array
+(
+    [ID] => 92828
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6156
+    [QUANTITY] => 12.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 220.00
+    [WEIGHT] => 500.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92830
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5072
+    [QUANTITY] => 5.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2730.66
+    [WEIGHT] => 15000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92832
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 5082
+    [QUANTITY] => 4.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 2549.83
+    [WEIGHT] => 15000.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92836
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 6680
+    [QUANTITY] => 2.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 471.15
+    [WEIGHT] => 300.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92833
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3426
+    [QUANTITY] => 20.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 141.53
+    [WEIGHT] => 200.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92834
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3429
+    [QUANTITY] => 12.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 187.43
+    [WEIGHT] => 400.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+
+Корзина Array
+(
+    [ID] => 92835
+    [CALLBACK_FUNC] => 
+    [MODULE] => catalog
+    [PRODUCT_ID] => 3472
+    [QUANTITY] => 10.00
+    [DELAY] => N
+    [CAN_BUY] => Y
+    [PRICE] => 117.30
+    [WEIGHT] => 30.00
+    [NOTES] => 3.Оптовые Спец.Цена
+)
+

@@ -32457,3 +32457,1420 @@ Array
     [~VERSION] => VERSION+0+1
     [VERSION] => 1
 )
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 408
+    [CURRENCY] => RUB
+    [USER_ID] => 867
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 62.24
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => Нужны именно эти свечи. V-line серии. т.к. стоит газовове оборудование. менял 2 раза другие свечи, ни с одними не подходит. машина отказаывается переходить на газ. походу тока в-лайн серия подходят. жо этого ставил без этой каемки.
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 408
+    [TAX_VALUE] => 0
+    [CURRENCY] => RUB
+    [USER_ID] => 867
+    [PAY_SYSTEM_ID] => 1
+    [DELIVERY_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [SUM_PAID] => 0
+    [DISCOUNT_VALUE] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1737
+    [CURRENCY] => RUB
+    [USER_ID] => 3818
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 264.95
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => База Саха-Автосервис. Выйду к воротам
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 886
+    [CURRENCY] => RUB
+    [USER_ID] => 3885
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 92.9
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 3436.8
+    [CURRENCY] => RUB
+    [USER_ID] => 2267
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 209.88
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 3654
+    [CURRENCY] => RUB
+    [USER_ID] => 2150
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 521.22
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 236
+    [CURRENCY] => RUB
+    [USER_ID] => 1366
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 36
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2199.71
+    [CURRENCY] => RUB
+    [USER_ID] => 3847
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 236.71
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 5603
+    [CURRENCY] => RUB
+    [USER_ID] => 1555
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 854.71
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => За час позвонить до доставки
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 593
+    [CURRENCY] => RUB
+    [USER_ID] => 3818
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 38.29
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => Заберет и оплатит водитель Грибачев Виктор
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 284
+    [CURRENCY] => RUB
+    [USER_ID] => 3818
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 43.32
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2018.82
+    [CURRENCY] => RUB
+    [USER_ID] => 2125
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1911
+    [CURRENCY] => RUB
+    [USER_ID] => 519
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 291.5
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => можете меня набрать, может еще кое что добавим в заказ
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 11450.37
+    [CURRENCY] => RUB
+    [USER_ID] => 3378
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 1260.15
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 4711.5
+    [CURRENCY] => RUB
+    [USER_ID] => 3784
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 718.7
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2998.93
+    [CURRENCY] => RUB
+    [USER_ID] => 3131
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 284.89
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 7956.03
+    [CURRENCY] => RUB
+    [USER_ID] => 2523
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 1150.34
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 32716.54
+    [CURRENCY] => RUB
+    [USER_ID] => 1819
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 191.08
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1187
+    [CURRENCY] => RUB
+    [USER_ID] => 3886
+    [PAY_SYSTEM_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 181.07
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 406
+    [CURRENCY] => RUB
+    [USER_ID] => 3887
+    [PAY_SYSTEM_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 61.93
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 406
+    [TAX_VALUE] => 0
+    [CURRENCY] => RUB
+    [USER_ID] => 3887
+    [PAY_SYSTEM_ID] => 3
+    [DELIVERY_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [SUM_PAID] => 0
+    [DISCOUNT_VALUE] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 4759.67
+    [CURRENCY] => RUB
+    [USER_ID] => 3378
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 573.61
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 178.95
+    [CURRENCY] => RUB
+    [USER_ID] => 3566
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 19.56
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1185
+    [CURRENCY] => RUB
+    [USER_ID] => 670
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 180.76
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => Звонить не обязательно, жду смс о поступлении заказа.
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1511
+    [CURRENCY] => RUB
+    [USER_ID] => 3826
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 222.1
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 138
+    [CURRENCY] => RUB
+    [USER_ID] => 1860
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 3237.91
+    [CURRENCY] => RUB
+    [USER_ID] => 3600
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 214.76
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 2754
+    [CURRENCY] => RUB
+    [USER_ID] => 3493
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => в офис компании ТД Казань -Метиз оставить у секретаря ,она же и расчитается 
+с 9.00-18.00
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1079.23
+    [CURRENCY] => RUB
+    [USER_ID] => 2368
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 164.63
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2014.17
+    [CURRENCY] => RUB
+    [USER_ID] => 2130
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 307.24
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 562
+    [CURRENCY] => RUB
+    [USER_ID] => 2197
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 85.73
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1795.3
+    [CURRENCY] => RUB
+    [USER_ID] => 3663
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 176.92
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 2056
+    [CURRENCY] => RUB
+    [USER_ID] => 56
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 313.63
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1034.25
+    [CURRENCY] => RUB
+    [USER_ID] => 1819
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 4813.05
+    [CURRENCY] => RUB
+    [USER_ID] => 2586
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 585.72
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 3052
+    [CURRENCY] => RUB
+    [USER_ID] => 1893
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 121.73
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 3093.75
+    [CURRENCY] => RUB
+    [USER_ID] => 1893
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 471.89
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 368.65
+    [CURRENCY] => RUB
+    [USER_ID] => 3566
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 56.25
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1150
+    [CURRENCY] => RUB
+    [USER_ID] => 3889
+    [PAY_SYSTEM_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 175.42
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2229.75
+    [CURRENCY] => RUB
+    [USER_ID] => 1095
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 340.13
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 16845.1
+    [CURRENCY] => RUB
+    [USER_ID] => 2236
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 1944.16
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 802
+    [CURRENCY] => RUB
+    [USER_ID] => 2236
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 122.34
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 971
+    [CURRENCY] => RUB
+    [USER_ID] => 3890
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [USER_DESCRIPTION] => Заказ создан через форму быстрого заказа
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1233.75
+    [CURRENCY] => RUB
+    [USER_ID] => 2026
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 188.2
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2251.1
+    [CURRENCY] => RUB
+    [USER_ID] => 2115
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 343.39
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => оф2
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1192.53
+    [CURRENCY] => RUB
+    [USER_ID] => 3153
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 111.18
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1462.22
+    [CURRENCY] => RUB
+    [USER_ID] => 3778
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 223.05
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => позвонить +7-937-593-90-33
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 294.54
+    [CURRENCY] => RUB
+    [USER_ID] => 2179
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 44.94
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1554
+    [CURRENCY] => RUB
+    [USER_ID] => 685
+    [PAY_SYSTEM_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 237.05
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1866
+    [CURRENCY] => RUB
+    [USER_ID] => 685
+    [PAY_SYSTEM_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 284.63
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 2558
+    [CURRENCY] => RUB
+    [USER_ID] => 288
+    [PAY_SYSTEM_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 53.08
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 1873.13
+    [CURRENCY] => RUB
+    [USER_ID] => 2130
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 252.76
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 2997
+    [CURRENCY] => RUB
+    [USER_ID] => 3891
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [USER_DESCRIPTION] => Заказ создан через форму быстрого заказа
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2942.74
+    [CURRENCY] => RUB
+    [USER_ID] => 3229
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 376.78
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => оплата по факту поставки товара
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2715.94
+    [CURRENCY] => RUB
+    [USER_ID] => 2115
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 414.3
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 400
+    [CURRENCY] => RUB
+    [USER_ID] => 3892
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 61
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 416
+    [CURRENCY] => RUB
+    [USER_ID] => 2125
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 2
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 63.46
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 3346.65
+    [CURRENCY] => RUB
+    [USER_ID] => 2267
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 510.48
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 2508
+    [CURRENCY] => RUB
+    [USER_ID] => 1895
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 382.58
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 3896
+    [CURRENCY] => RUB
+    [USER_ID] => 2175
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 594.3
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 364
+    [CURRENCY] => RUB
+    [USER_ID] => 2304
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 33.71
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 3
+    [PRICE] => 33687.68
+    [CURRENCY] => RUB
+    [USER_ID] => 2226
+    [PAY_SYSTEM_ID] => 2
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 4
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 5138.78
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [USER_DESCRIPTION] => 
+    [AFFILIATE_ID] => 
+    [SUM_PAID] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
