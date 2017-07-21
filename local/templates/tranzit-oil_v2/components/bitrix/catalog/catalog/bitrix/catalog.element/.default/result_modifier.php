@@ -3,7 +3,7 @@ use Bitrix\Main\Type\Collection;
 
 $arElement = CIblockElement::GetById($arResult["ID"])->GetNext();
 $arResult['DETAIL_PAGE_URL'] = $arElement['DETAIL_PAGE_URL'];
-$cp = $this->__component; 
+$cp = $this->__component;
 if (is_object($cp))
 $cp->SetResultCacheKeys(array('DETAIL_PAGE_URL'));
 
@@ -15,19 +15,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED!==true) die();
 
 $arResult['BONUS_AMOUNT'] = 0;
 
-if (\Bitrix\Main\Loader::includeModule("wsm.bonus"))
-{
-	$rule = \Wsm\Bonus::getRule($arResult['ID'], SITE_ID);
-	if($rule['PERCENT'] > 0)
-	{
-		$arPrice = CCatalogProduct::GetOptimalPrice($arResult['ID'], 1, $GLOBALS['USER']->GetUserGroupArray(), $renewal);
-		$price = $arPrice['DISCOUNT_PRICE'] ? $arPrice['DISCOUNT_PRICE'] : 0 ;
-		$amount = $price * $rule['PERCENT'] / 100;
-		$arResult['BONUS_AMOUNT'] = round($amount, 2);
-	}
-	
-	$arResult['BONUS_AMOUNT_TEXT'] = \Wsm\Bonus::getBonusText($amount);
-}
+
+
 
 $arResult['SIMILAR_ID'] = array();
 
@@ -317,7 +306,7 @@ if ( ($e0[$i]!=$e[$i]) || ($be!=0) ) { $ee=$ee.' '.$e[$i]; $be=10; }
 
 
 $arResult['PRODUCT_OFFER'][$keys]['NAME']=$ee;
- 
+
 endforeach;
 
 
