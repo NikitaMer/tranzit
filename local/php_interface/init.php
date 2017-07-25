@@ -60,7 +60,7 @@
     CModule::IncludeModule("sale");
 
 
-    AddEventHandler("sale", "OnSaleStatusOrder", Array("MyClass", "OnStatus")); // После добавления
+    //AddEventHandler("sale", "OnSaleStatusOrder", Array("MyClass", "OnStatus")); // После добавления
 
     AddEventHandler('main', 'OnBeforeEventSend', "my_OnBeforeEventSend");
 
@@ -218,8 +218,7 @@
                     "PRODUCT_ID", "QUANTITY", "DELAY", 
                     "CAN_BUY", "PRICE", "WEIGHT","NOTES")
             );
-
-            global $DB;	
+            	
 
             $allSum=$arFields[PRICE];
 
@@ -260,6 +259,7 @@
                     $arItems[QUANTITY]=round($arItems[QUANTITY]);
 
                     global $USER;
+                    global $DB;
                     $iu=$USER->GetID();
 
                     if ($iu<=0) $iu=$arFields[USER_ID];
@@ -300,7 +300,7 @@
 
         /////////
 
-        function  OnStatus($ID, $val)
+        /*function  OnStatus($ID, $val)
         {            
             if ($val=='F')
             {
@@ -333,7 +333,7 @@
 
                 $res=CSaleUserTransact::Add($arFields); // Добавление тразанкции
             } 
-        }  
+        } */ 
 
         ///////// 
 
@@ -517,8 +517,7 @@
             unset($arFields['ACTIVE']);    
         }       
     }  
-
-    // if ( ($e!='/shop/cart/') && (substr_count($e,'/bitrix/admin/')<=0) ) require($_SERVER["DOCUMENT_ROOT"]."/neworder.php");
+                                                                                                                                 
 
 
 ?>
