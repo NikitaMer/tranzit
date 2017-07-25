@@ -110,7 +110,7 @@ if (!function_exists("PrintPropsForm"))
 				elseif ($arProperties["TYPE"] == "TEXT")
 				{
 					#echo $arProperties["CODE"];
-
+                    //arshow($arProperties);
                     $app = \Bitrix\Main\Application::getInstance();
                     $contex = $app->getContext();
                     $request = $contex->getRequest();
@@ -156,6 +156,7 @@ if (!function_exists("PrintPropsForm"))
 						if($arProperties["NAME"] == "Контактный телефон") $arProperties["VALUE"] = $arUser2['WORK_PHONE'];
 						if($arProperties["CODE"] == 'NAME') $arProperties["VALUE"] = $arUser2['WORK_COMPANY'];	
 					}
+                    
 					?>
 					<div class="field<?if($counter == 0 || $arProperties["CODE"] == 'DELIVERY_ADRES'):?> w480p<?endif;?>">
 						<label><?=$arProperties["NAME"]?><?if ($arProperties["REQUIED_FORMATED"]=="Y"):?><span class="red">*</span><?endif;?></label>

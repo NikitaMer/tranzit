@@ -32457,3 +32457,2186 @@ Array
     [~VERSION] => VERSION+0+1
     [VERSION] => 1
 )
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 685
+    [CURRENCY] => RUB
+    [USER_ID] => 3775
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 3
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 292.58
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 21.07.2017 12:54:07
+    [EMP_STATUS_ID] => 3775
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 16000
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 20954
+                    [ID] => 88682
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 1000.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 194.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 194.0000
+                    [PRODUCT_PRICE_ID] => 42069
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Антифриз CoolStream Optima G13 1кг.
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.0000
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/okhlazhdayushchie-zhidkosti/antifreez/antifriz-coolstream-optima-g13-1kg/
+                    [FUSER_ID] => 673589
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-21 12:50:51
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-21 12:50:51
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 912f2e88-f7e8-11e5-a163-0025906ae8bc
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244272
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244273
+                                    [VALUE] => 912f2e88-f7e8-11e5-a163-0025906ae8bc
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 1959
+                    [ID] => 88683
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 5000.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 491.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 491.0000
+                    [PRODUCT_PRICE_ID] => 2142
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Антифриз CoolStream Optima зеленый 5л.
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/okhlazhdayushchie-zhidkosti/antifriz-coolstream-optima-zelenyy-5l/
+                    [FUSER_ID] => 673589
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-21 12:51:10
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-21 12:51:10
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => e735fddc-2751-11df-be3b-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244274
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244275
+                                    [VALUE] => e735fddc-2751-11df-be3b-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 2277
+                    [ID] => 88684
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 10000.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 1427.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 1427.0000
+                    [PRODUCT_PRICE_ID] => 2204
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Антифриз CoolStream Premium 10л.
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/okhlazhdayushchie-zhidkosti/antifriz-coolstream-premium-10l/
+                    [FUSER_ID] => 673589
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-21 12:51:22
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-21 12:51:22
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => e7bd0657-4802-11e2-8575-0025906ae8bc
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244276
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244277
+                                    [VALUE] => e7bd0657-4802-11e2-8575-0025906ae8bc
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => иванов иван иванович
+            [16] => 
+            [25] => 
+            [37] => 0
+            [36] => -
+            [2] => 2323232323
+            [5] => test@mail.ru
+            [3] => 0000573193
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => 
+            [9] => 2354686546546
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [NAME] => НДС
+                    [IS_PERCENT] => Y
+                    [VALUE] => 18
+                    [VALUE_MONEY] => 292.58
+                    [APPLY_ORDER] => 100
+                    [IS_IN_PRICE] => Y
+                    [TAX_VAL] => 
+                    [CODE] => VAT
+                )
+
+        )
+
+    [VAT_RATE] => 0.1800
+    [VAT_SUM] => 292.58
+    [PAYER_NAME] => иванов иван иванович
+    [USER_EMAIL] => test@mail.ru
+    [DELIVERY_LOCATION] => 0000573193
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 1427
+    [TAX_VALUE] => 0
+    [CURRENCY] => RUB
+    [USER_ID] => 3775
+    [PAY_SYSTEM_ID] => 1
+    [DELIVERY_ID] => 3
+    [PRICE_DELIVERY] => 0
+    [SUM_PAID] => 0
+    [DISCOUNT_VALUE] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1427
+    [CURRENCY] => RUB
+    [USER_ID] => 3775
+    [PAY_SYSTEM_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 9
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => 
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_INSERT] => 21.07.2017 12:55:21
+    [DATE_UPDATE] => 21.07.2017 12:55:21
+    [VERSION] => 1
+    [DATE_STATUS] => 21.07.2017 12:55:21
+    [ORDER_WEIGHT] => 0
+    [BASKET_ITEMS] => Array
+        (
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => 
+            [16] => 
+            [25] => 
+            [37] => 
+            [36] => 
+            [2] => 
+            [5] => 
+            [3] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => 
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => 
+    [VAT_RATE] => 
+    [VAT_SUM] => 
+    [PAYER_NAME] => 
+    [USER_EMAIL] => 
+    [DELIVERY_LOCATION] => 
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 2441
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 127.52
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 24.07.2017 16:12:57
+    [EMP_STATUS_ID] => 3772
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 5196
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 19512
+                    [ID] => 88677
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 3396.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 1878.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 1878.0000
+                    [PRODUCT_PRICE_ID] => 31819
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => АКЦИЯ! 5л топлива в подарок! Моторное масло ЛУКОЙЛ GENESIS ARMORTECH 5w40 4л., синтетическое
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.0000
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/avtomasla/motornye/lukoyl/lukoyl-genesis-armortech-5w40-4l/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-18 15:14:53
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:25:04
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 6257d6bd-4aeb-11e5-8433-0025906ae8bc
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244262
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244263
+                                    [VALUE] => 6257d6bd-4aeb-11e5-8433-0025906ae8bc
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6385
+                    [ID] => 88678
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 175.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 175.0000
+                    [PRODUCT_PRICE_ID] => 4015
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр MANN W 914/2  
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-914-2-1/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 6
+                    [MEASURE_NAME] => м
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:24:26
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:25:04
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 5d576d0c-48af-11e0-8a41-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244264
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244265
+                                    [VALUE] => 5d576d0c-48af-11e0-8a41-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6325
+                    [ID] => 88679
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 215.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 215.0000
+                    [PRODUCT_PRICE_ID] => 7297
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр MANN W 67/1
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-67-1/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:24:30
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:25:04
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => d2346422-a371-11df-a3a5-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244266
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244267
+                                    [VALUE] => d2346422-a371-11df-a3a5-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 5871
+                    [ID] => 88680
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 300.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 273.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 273.0000
+                    [PRODUCT_PRICE_ID] => 8972
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Воздушный фильтр MANN C 22 117
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/vozdushnye/vozdushnyy-filtr-mann-c-22117/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:24:34
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:25:04
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 4abe5221-90c8-11df-afae-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244268
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244269
+                                    [VALUE] => 4abe5221-90c8-11df-afae-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6384
+                    [ID] => 88681
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 173.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 173.0000
+                    [PRODUCT_PRICE_ID] => 10303
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр на ВАЗ MANN W 914/2
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-914-2/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:26:21
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-20 16:27:07
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244270
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244271
+                                    [VALUE] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => Ntcn
+            [16] => 
+            [25] => 
+            [36] => -
+            [2] => 11111111111111
+            [5] => admin@webgk.ru
+            [3] => 0000550426
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => kazan_3
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [NAME] => НДС
+                    [IS_PERCENT] => Y
+                    [VALUE] => 18
+                    [VALUE_MONEY] => 127.52
+                    [APPLY_ORDER] => 100
+                    [IS_IN_PRICE] => Y
+                    [TAX_VAL] => 
+                    [CODE] => VAT
+                )
+
+        )
+
+    [VAT_RATE] => 0.1800
+    [VAT_SUM] => 127.52
+    [PAYER_NAME] => Ntcn
+    [USER_EMAIL] => admin@webgk.ru
+    [DELIVERY_LOCATION] => 0000550426
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 273
+    [TAX_VALUE] => 0
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [DELIVERY_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [SUM_PAID] => 0
+    [DISCOUNT_VALUE] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 273
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => 
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_INSERT] => 24.07.2017 16:13:12
+    [DATE_UPDATE] => 24.07.2017 16:13:12
+    [VERSION] => 1
+    [DATE_STATUS] => 24.07.2017 16:13:12
+    [ORDER_WEIGHT] => 0
+    [BASKET_ITEMS] => Array
+        (
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => 
+            [16] => 
+            [25] => 
+            [36] => 
+            [2] => 
+            [5] => 
+            [3] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => 
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => 
+    [VAT_RATE] => 
+    [VAT_SUM] => 
+    [PAYER_NAME] => 
+    [USER_EMAIL] => 
+    [DELIVERY_LOCATION] => 
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 173
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 68.03
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 24.07.2017 16:57:12
+    [EMP_STATUS_ID] => 3772
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 800
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6384
+                    [ID] => 88687
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 173.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 173.0000
+                    [PRODUCT_PRICE_ID] => 10303
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр на ВАЗ MANN W 914/2
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-914-2/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:14:12
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:14:12
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244278
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244279
+                                    [VALUE] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 5871
+                    [ID] => 88688
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 300.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 273.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 273.0000
+                    [PRODUCT_PRICE_ID] => 8972
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Воздушный фильтр MANN C 22 117
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/vozdushnye/vozdushnyy-filtr-mann-c-22117/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:14:15
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:14:15
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 4abe5221-90c8-11df-afae-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244280
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244281
+                                    [VALUE] => 4abe5221-90c8-11df-afae-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => ntcn
+            [16] => 
+            [25] => 
+            [36] => -
+            [2] => 11111111111111
+            [5] => admin@webgk.ru
+            [3] => 0000550426
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => kazan_3
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [NAME] => НДС
+                    [IS_PERCENT] => Y
+                    [VALUE] => 18
+                    [VALUE_MONEY] => 68.03
+                    [APPLY_ORDER] => 100
+                    [IS_IN_PRICE] => Y
+                    [TAX_VAL] => 
+                    [CODE] => VAT
+                )
+
+        )
+
+    [VAT_RATE] => 0.1800
+    [VAT_SUM] => 68.03
+    [PAYER_NAME] => ntcn
+    [USER_EMAIL] => admin@webgk.ru
+    [DELIVERY_LOCATION] => 0000550426
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 273
+    [TAX_VALUE] => 0
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [DELIVERY_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [SUM_PAID] => 0
+    [DISCOUNT_VALUE] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 273
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => 
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_INSERT] => 24.07.2017 16:57:17
+    [DATE_UPDATE] => 24.07.2017 16:57:17
+    [VERSION] => 1
+    [DATE_STATUS] => 24.07.2017 16:57:17
+    [ORDER_WEIGHT] => 0
+    [BASKET_ITEMS] => Array
+        (
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => 
+            [16] => 
+            [25] => 
+            [36] => 
+            [2] => 
+            [5] => 
+            [3] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => 
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => 
+    [VAT_RATE] => 
+    [VAT_SUM] => 
+    [PAYER_NAME] => 
+    [USER_EMAIL] => 
+    [DELIVERY_LOCATION] => 
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 173
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 68.03
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 24.07.2017 16:57:45
+    [EMP_STATUS_ID] => 3772
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 800
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 5871
+                    [ID] => 88690
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 300.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 273.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 273.0000
+                    [PRODUCT_PRICE_ID] => 8972
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Воздушный фильтр MANN C 22 117
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/vozdushnye/vozdushnyy-filtr-mann-c-22117/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:57:22
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:57:22
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 4abe5221-90c8-11df-afae-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244282
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244283
+                                    [VALUE] => 4abe5221-90c8-11df-afae-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6384
+                    [ID] => 88691
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 173.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 173.0000
+                    [PRODUCT_PRICE_ID] => 10303
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр на ВАЗ MANN W 914/2
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-914-2/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:57:23
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:57:23
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244284
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244285
+                                    [VALUE] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => ntcn
+            [16] => 
+            [25] => 
+            [36] => on
+            [2] => 11111111111111
+            [5] => admin@webgk.ru
+            [3] => 0000550426
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => kazan_3
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [NAME] => НДС
+                    [IS_PERCENT] => Y
+                    [VALUE] => 18
+                    [VALUE_MONEY] => 68.03
+                    [APPLY_ORDER] => 100
+                    [IS_IN_PRICE] => Y
+                    [TAX_VAL] => 
+                    [CODE] => VAT
+                )
+
+        )
+
+    [VAT_RATE] => 0.1800
+    [VAT_SUM] => 68.03
+    [PAYER_NAME] => ntcn
+    [USER_EMAIL] => admin@webgk.ru
+    [DELIVERY_LOCATION] => 0000550426
+)
+Array
+(
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PAYED] => N
+    [CANCELED] => N
+    [STATUS_ID] => N
+    [PRICE] => 273
+    [TAX_VALUE] => 0
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [DELIVERY_ID] => 1
+    [PRICE_DELIVERY] => 0
+    [SUM_PAID] => 0
+    [DISCOUNT_VALUE] => 0
+    [UPDATED_1C] => N
+    [~VERSION] => VERSION+0+1
+    [VERSION] => 1
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 273
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => 
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_INSERT] => 24.07.2017 16:59:17
+    [DATE_UPDATE] => 24.07.2017 16:59:17
+    [VERSION] => 1
+    [DATE_STATUS] => 24.07.2017 16:59:17
+    [ORDER_WEIGHT] => 0
+    [BASKET_ITEMS] => Array
+        (
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => 
+            [16] => 
+            [25] => 
+            [36] => 
+            [2] => 
+            [5] => 
+            [3] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => 
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => 
+    [VAT_RATE] => 
+    [VAT_SUM] => 
+    [PAYER_NAME] => 
+    [USER_EMAIL] => 
+    [DELIVERY_LOCATION] => 
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 1878
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 0
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 24.07.2017 16:59:51
+    [EMP_STATUS_ID] => 3772
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 3396
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 19512
+                    [ID] => 88693
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 3396.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 1878.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 1878.0000
+                    [PRODUCT_PRICE_ID] => 31819
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => АКЦИЯ! 5л топлива в подарок! Моторное масло ЛУКОЙЛ GENESIS ARMORTECH 5w40 4л., синтетическое
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.0000
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/avtomasla/motornye/lukoyl/lukoyl-genesis-armortech-5w40-4l/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:59:30
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 16:59:30
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 6257d6bd-4aeb-11e5-8433-0025906ae8bc
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244286
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244287
+                                    [VALUE] => 6257d6bd-4aeb-11e5-8433-0025906ae8bc
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => 45666
+            [16] => 
+            [25] => 
+            [36] => on
+            [2] => 23444
+            [5] => admin@webgk.ru
+            [3] => 0000550426
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => kazan_3
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+        )
+
+    [VAT_RATE] => 0
+    [VAT_SUM] => 0
+    [PAYER_NAME] => 45666
+    [USER_EMAIL] => admin@webgk.ru
+    [DELIVERY_LOCATION] => 0000550426
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 346
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 52.78
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 24.07.2017 17:17:02
+    [EMP_STATUS_ID] => 3772
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 1000
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6384
+                    [ID] => 88694
+                    [LID] => s1
+                    [QUANTITY] => 2.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 173.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 173.0000
+                    [PRODUCT_PRICE_ID] => 10303
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр на ВАЗ MANN W 914/2
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-914-2/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 17:14:36
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 17:14:37
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244288
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244289
+                                    [VALUE] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => АКЕП
+            [16] => 
+            [25] => 
+            [36] => 346
+            [2] => 2222222
+            [5] => admin@webgk.ru
+            [3] => 0000550426
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => kazan_3
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [NAME] => НДС
+                    [IS_PERCENT] => Y
+                    [VALUE] => 18
+                    [VALUE_MONEY] => 52.78
+                    [APPLY_ORDER] => 100
+                    [IS_IN_PRICE] => Y
+                    [TAX_VAL] => 
+                    [CODE] => VAT
+                )
+
+        )
+
+    [VAT_RATE] => 0.1800
+    [VAT_SUM] => 52.78
+    [PAYER_NAME] => АКЕП
+    [USER_EMAIL] => admin@webgk.ru
+    [DELIVERY_LOCATION] => 0000550426
+)
+Array
+(
+    [SITE_ID] => s1
+    [LID] => s1
+    [PERSON_TYPE_ID] => 1
+    [PRICE] => 173
+    [CURRENCY] => RUB
+    [USER_ID] => 3772
+    [PAY_SYSTEM_ID] => 5
+    [PRICE_DELIVERY] => 0
+    [DELIVERY_ID] => 1
+    [DISCOUNT_VALUE] => 0
+    [TAX_VALUE] => 68.03
+    [TRACKING_NUMBER] => 
+    [PAYED] => N
+    [CANCELED] => 
+    [STATUS_ID] => N
+    [RESERVED] => 
+    [UPDATED_1C] => N
+    [DATE_STATUS] => 24.07.2017 17:22:08
+    [EMP_STATUS_ID] => 3772
+    [USER_DESCRIPTION] => 
+    [COMPANY_ID] => 0
+    [ORDER_WEIGHT] => 800
+    [BASKET_ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 6384
+                    [ID] => 88695
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 500.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 173.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 173.0000
+                    [PRODUCT_PRICE_ID] => 10303
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Масляный фильтр на ВАЗ MANN W 914/2
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/maslyanye/maslyanyy-filtr-mann-w-914-2/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 17:19:58
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 17:19:58
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244290
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244291
+                                    [VALUE] => 9dba1a3c-a106-11db-ba91-0050badc0bb1
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [MODULE] => catalog
+                    [PRODUCT_ID] => 5871
+                    [ID] => 88696
+                    [LID] => s1
+                    [QUANTITY] => 1.0000
+                    [WEIGHT] => 300.00
+                    [DELAY] => N
+                    [CAN_BUY] => Y
+                    [PRICE] => 273.0000
+                    [CUSTOM_PRICE] => N
+                    [BASE_PRICE] => 273.0000
+                    [PRODUCT_PRICE_ID] => 8972
+                    [CURRENCY] => RUB
+                    [BARCODE_MULTI] => N
+                    [RESERVED] => N
+                    [RESERVE_QUANTITY] => 
+                    [NAME] => Воздушный фильтр MANN C 22 117
+                    [CATALOG_XML_ID] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                    [VAT_RATE] => 0.1800
+                    [NOTES] => Интернет Магазин
+                    [DISCOUNT_PRICE] => 0.0000
+                    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+                    [CALLBACK_FUNC] => 
+                    [ORDER_CALLBACK_FUNC] => 
+                    [PAY_CALLBACK_FUNC] => 
+                    [CANCEL_CALLBACK_FUNC] => 
+                    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+                    [TYPE] => 
+                    [SET_PARENT_ID] => 
+                    [DETAIL_PAGE_URL] => /catalog/filtry/vozdushnye/vozdushnyy-filtr-mann-c-22117/
+                    [FUSER_ID] => 673586
+                    [MEASURE_CODE] => 796
+                    [MEASURE_NAME] => шт
+                    [ORDER_ID] => 
+                    [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 17:21:25
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                        (
+                            [value:protected] => DateTime Object
+                                (
+                                    [date] => 2017-07-24 17:21:25
+                                    [timezone_type] => 3
+                                    [timezone] => Europe/Moscow
+                                )
+
+                        )
+
+                    [PRODUCT_XML_ID] => 4abe5221-90c8-11df-afae-0030486900da
+                    [SUBSCRIBE] => N
+                    [RECOMMENDATION] => 
+                    [VAT_INCLUDED] => Y
+                    [SORT] => 100
+                    [PROPS] => Array
+                        (
+                            [CATALOG.XML_ID] => Array
+                                (
+                                    [CODE] => CATALOG.XML_ID
+                                    [ID] => 244292
+                                    [VALUE] => catalog-e2d0d55c-fff6-4598-8e0c-95ef76a126e3
+                                    [SORT] => 100
+                                    [NAME] => Catalog XML_ID
+                                )
+
+                            [PRODUCT.XML_ID] => Array
+                                (
+                                    [CODE] => PRODUCT.XML_ID
+                                    [ID] => 244293
+                                    [VALUE] => 4abe5221-90c8-11df-afae-0030486900da
+                                    [SORT] => 100
+                                    [NAME] => Product XML_ID
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [ORDER_PROP] => Array
+        (
+            [1] => Первый03
+            [16] => 
+            [25] => 
+            [36] => 446
+            [2] => 123123
+            [5] => admin@webgk.ru
+            [3] => 0000550426
+            [6] => 
+            [7] => 
+            [8] => 
+            [10] => 
+            [11] => kazan_3
+            [9] => 
+        )
+
+    [DISCOUNT_LIST] => Array
+        (
+        )
+
+    [TAX_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [NAME] => НДС
+                    [IS_PERCENT] => Y
+                    [VALUE] => 18
+                    [VALUE_MONEY] => 68.03
+                    [APPLY_ORDER] => 100
+                    [IS_IN_PRICE] => Y
+                    [TAX_VAL] => 
+                    [CODE] => VAT
+                )
+
+        )
+
+    [VAT_RATE] => 0.1800
+    [VAT_SUM] => 68.03
+    [PAYER_NAME] => Первый03
+    [USER_EMAIL] => admin@webgk.ru
+    [DELIVERY_LOCATION] => 0000550426
+)

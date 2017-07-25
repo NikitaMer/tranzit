@@ -8,6 +8,22 @@ ini_set('mbstring.internal_encoding', 'utf-8');
 define('CATALOG_IBLOCK_ID', 73);                  
 define('EXCHANGE_1C_USER', 4);
 
+function arshow($array, $adminCheck = false, $dieAfterArshow = false){
+    global $USER;
+    $USER = new Cuser;
+    if ($adminCheck) {
+        if (!$USER->IsAdmin()) {
+            return false;
+        }
+    }
+    echo "<pre>";
+    print_r($array);
+    echo "</pre>";
+    if ($dieAfterArshow) {
+        die();
+    }
+}
+
 $aURI = Array();
 global $aURI;
 $pureURI = $_SERVER["REQUEST_URI"];
@@ -50,7 +66,7 @@ CModule::IncludeModule("iblock");
 CModule::IncludeModule("sale");
 
 
-AddEventHandler("sale", "OnSaleStatusOrder", Array("MyClass", "OnStatus")); // После добавления
+//AddEventHandler("sale", "OnSaleStatusOrder", Array("MyClass", "OnStatus")); // После добавления
 
 AddEventHandler('main', 'OnBeforeEventSend', "my_OnBeforeEventSend");
 
@@ -181,7 +197,7 @@ $ar_res = $res->GetNext();
 
 
 
-AddEventHandler("sale", "OnBeforeOrderAdd", Array("MyClass", "OrderTo")); // Разбить заказ на 2 части, те что есть и тех что нету
+//AddEventHandler("sale", "OnBeforeOrderAdd", Array("MyClass", "OrderTo")); // Разбить заказ на 2 части, те что есть и тех что нету
 
 
 
@@ -190,124 +206,124 @@ AddEventHandler("catalog", "onBeforePriceUpdate", Array("MyClass", "OnPrice")); 
 class MyClass
 {
 
-function OrderTo(&$arFields)
-{
-	
-$BasketSave=array(); // Массив с корзиной товаров с отрицательным колличеством
-
-$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log25.txt','a');
-fwrite($f,print_r($arFields,true));
-fclose($f);
-
-////////
-
-// Выведем актуальную корзину для текущего пользователя
-
-$arBasketItems = array();
-
-$dbBasketItems = CSaleBasket::GetList(
-        array(
-                "NAME" => "ASC",
-                "ID" => "ASC"
-            ),
-        array(
-                "FUSER_ID" => CSaleBasket::GetBasketUserID(),
-                "LID" => SITE_ID,
-                "ORDER_ID" => "NULL"
-            ),
-        false,
-        false,
-        array("ID", "CALLBACK_FUNC", "MODULE", 
-              "PRODUCT_ID", "QUANTITY", "DELAY", 
-              "CAN_BUY", "PRICE", "WEIGHT","NOTES")
-    );
-	
-global $DB;	
-
-$allSum=$arFields[PRICE];
-	
-while ($arItems = $dbBasketItems->Fetch())
-{
-    if (strlen($arItems["CALLBACK_FUNC"]) > 0)
+    function OrderTo(&$arFields)
     {
-        CSaleBasket::UpdatePrice($arItems["ID"], 
-                                 $arItems["CALLBACK_FUNC"], 
-                                 $arItems["MODULE"], 
-                                 $arItems["PRODUCT_ID"], 
-                                 $arItems["QUANTITY"]);
-        $arItems = CSaleBasket::GetByID($arItems["ID"]);
+        
+	        
+        $BasketSave=array(); // Массив с корзиной товаров с отрицательным колличеством
+
+        //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log25.txt','a');
+        //fwrite($f,print_r($arFields,true));
+        //fclose($f);
+
+        ////////
+
+        // Выведем актуальную корзину для текущего пользователя
+
+        $arBasketItems = array();
+
+        $dbBasketItems = CSaleBasket::GetList(
+                array(
+                        "NAME" => "ASC",
+                        "ID" => "ASC"
+                    ),
+                array(
+                        "FUSER_ID" => CSaleBasket::GetBasketUserID(),
+                        "LID" => SITE_ID,
+                        "ORDER_ID" => "NULL"
+                    ),
+                false,
+                false,
+                array("ID", "CALLBACK_FUNC", "MODULE", 
+                      "PRODUCT_ID", "QUANTITY", "DELAY", 
+                      "CAN_BUY", "PRICE", "WEIGHT","NOTES")
+            );
+	        
+        global $DB;	
+
+        $allSum=$arFields[PRICE];
+	        
+        while ($arItems = $dbBasketItems->Fetch())
+        {
+            if (strlen($arItems["CALLBACK_FUNC"]) > 0)
+            {
+                CSaleBasket::UpdatePrice($arItems["ID"], 
+                                         $arItems["CALLBACK_FUNC"], 
+                                         $arItems["MODULE"], 
+                                         $arItems["PRODUCT_ID"], 
+                                         $arItems["QUANTITY"]);
+                $arItems = CSaleBasket::GetByID($arItems["ID"]);
+            }
+
+            $arBasketItems[] = $arItems;
+	        
+			        //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log28.txt','a');
+        //fwrite($f,"Корзина ".print_r($arItems,true)."\r\n");
+        //fclose($f);
+	        
+	        // Определяем для продукта колличеством
+	        
+	        $ar_res = CCatalogProduct::GetByID($arItems[PRODUCT_ID]); 
+	        
+	        $price = CPrice::GetBasePrice($arItems[PRODUCT_ID]);
+	        
+	        // Сохранить в файло $arItems[NOTES] 
+	        
+	        if ( ($ar_res["QUANTITY"]<=0) && ($arItems[NOTES]=='Интернет Магазин') )
+	        {
+		        
+
+        $arFields[PRICE]=$arFields[PRICE]-$price[PRICE]*$arItems["QUANTITY"];
+        $BasketSave[]=$arItems;	
+
+        $price[PRICE]=round($price[PRICE]);
+        $arItems[QUANTITY]=round($arItems[QUANTITY]);
+
+        global $USER;
+        $iu=$USER->GetID();
+
+        if ($iu<=0) $iu=$arFields[USER_ID];
+
+        $SQL="INSERT INTO order_agent (user, status, product, QUANTITY, PRICE, PAY_SYSTEM_ID, DELIVERY_ID) VALUES ($iu, 0, $arItems[PRODUCT_ID], $arItems[QUANTITY], $price[PRICE],$arFields[PAY_SYSTEM_ID],$arFields[DELIVERY_ID]);";
+
+        $res=CSaleBasket::Delete($arItems[ID]);
+
+        //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log26SQL.txt','a');
+        //fwrite($f,"SQL запрос".$SQL."\r\n");
+        //fclose($f);
+
+        $DB->Query($SQL);
+
+
+
+
+        $allSum=$allSum-$arItems["QUANTITY"]*$price[PRICE];
+
+	    } 
+	    
+        }
+
+        // Изменить в заказе стоимость [PRICE] и налог [TAX_VALUE] 
+
+        $arFields[PRICE]=$allSum;
+
+        //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log27.txt','a');
+        //fwrite($f,print_r($arFields,true));
+        //fclose($f);
+
+        global $USER;
+        // if ($USER->IsAdmin()) return false;
+
+        if ($arFields[USER_ID]=='') return false; 
+        arshow($arFields);
+        die;
+	        
     }
-
-    $arBasketItems[] = $arItems;
-	
-			$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log28.txt','a');
-fwrite($f,"Корзина ".print_r($arItems,true)."\r\n");
-fclose($f);
-	
-	// Определяем для продукта колличеством
-	
-	$ar_res = CCatalogProduct::GetByID($arItems[PRODUCT_ID]); 
-	
-	$price = CPrice::GetBasePrice($arItems[PRODUCT_ID]);
-	
-	// Сохранить в файло $arItems[NOTES] 
-	
-	if ( ($ar_res["QUANTITY"]<=0) && ($arItems[NOTES]=='Интернет Магазин') )
-	{
-		
-
-$arFields[PRICE]=$arFields[PRICE]-$price[PRICE]*$arItems["QUANTITY"];
-$BasketSave[]=$arItems;	
-
-$price[PRICE]=round($price[PRICE]);
-$arItems[QUANTITY]=round($arItems[QUANTITY]);
-
-global $USER;
-$iu=$USER->GetID();
-
-if ($iu<=0) $iu=$arFields[USER_ID];
-
-$SQL="INSERT INTO order_agent (user, status, product, QUANTITY, PRICE,PAY_SYSTEM_ID, DELIVERY_ID) VALUES ($iu, 0, $arItems[PRODUCT_ID], $arItems[QUANTITY], $price[PRICE],$arFields[PAY_SYSTEM_ID],$arFields[DELIVERY_ID]);";
-
-$res=CSaleBasket::Delete($arItems[ID]);
-
-$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log26SQL.txt','a');
-fwrite($f,"SQL запрос".$SQL."\r\n");
-fclose($f);
-
-$DB->Query($SQL);
-
-
-
-
-$allSum=$allSum-$arItems["QUANTITY"]*$price[PRICE];
-
-;
-
-
-	} 
-	
-}
-
-// Изменить в заказе стоимость [PRICE] и налог [TAX_VALUE] 
-
-$arFields[PRICE]=$allSum;
-
-$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log27.txt','a');
-fwrite($f,print_r($arFields,true));
-fclose($f);
-
-global $USER;
-// if ($USER->IsAdmin()) return false;
-
-if ($arFields[USER_ID]=='') return false;
-	
-}
 
 
 /////////
 
-function  OnStatus($ID, $val)
+/*function  OnStatus($ID, $val)
 {
 
 if ($val=='F')
@@ -346,7 +362,7 @@ $res=CSaleUserTransact::Add($arFields); // Добавление тразанкц
 
 
 
-}
+}  */
 
 ///////// 
 
