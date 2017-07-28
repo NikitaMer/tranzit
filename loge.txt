@@ -1,1 +1,1 @@
-/bitrix/admin/iblock_element_edit.php
+/shop/search/

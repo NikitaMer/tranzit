@@ -1,6 +1,12 @@
 <?
 $arUrlRewrite = array(
 	array(
+		"CONDITION" => "#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#",
+		"RULE" => "alias=\$1",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
+	),
+	array(
 		"CONDITION" => "#^/okompanii/photo-galereya/#",
 		"RULE" => "",
 		"ID" => "bitrix:catalog",
@@ -13,16 +19,16 @@ $arUrlRewrite = array(
 		"PATH" => "/shop/personal/orders/index.php",
 	),
 	array(
-		"CONDITION" => "#^/about/photo-gallery/#",
-		"RULE" => "",
-		"ID" => "bitrix:catalog",
-		"PATH" => "/about/photo-gallery/index.php",
-	),
-	array(
 		"CONDITION" => "#^/about/foto-galereya/#",
 		"RULE" => "",
 		"ID" => "bitrix:catalog",
 		"PATH" => "/about/foto-galereya/index.php",
+	),
+	array(
+		"CONDITION" => "#^/about/photo-gallery/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/about/photo-gallery/index.php",
 	),
 	array(
 		"CONDITION" => "#^/okompanii/klienty/#",
@@ -31,10 +37,22 @@ $arUrlRewrite = array(
 		"PATH" => "/okompanii/klienty/index.php",
 	),
 	array(
+		"CONDITION" => "#^/online/(/?)([^/]*)#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
+	),
+	array(
 		"CONDITION" => "#^/okompanii/brendy/#",
 		"RULE" => "",
 		"ID" => "bitrix:news.list",
 		"PATH" => "/okompanii/brendy/index.php",
+	),
+	array(
+		"CONDITION" => "#^/stssync/calendar/#",
+		"RULE" => "",
+		"ID" => "bitrix:stssync.server",
+		"PATH" => "/bitrix/services/stssync/calendar/index.php",
 	),
 	array(
 		"CONDITION" => "#^/useful/articles/#",

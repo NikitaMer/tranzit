@@ -48,7 +48,14 @@ include(dirname(__FILE__).'/include/user.php');
 CModule::IncludeModule("catalog");
 CModule::IncludeModule("iblock");
 CModule::IncludeModule("sale");
-
+                                  
+function logger($data, $file) {
+    file_put_contents(
+        $file,
+        var_export($data, 1)."\n",
+        FILE_APPEND
+    );
+}
 
 AddEventHandler("sale", "OnSaleStatusOrder", Array("MyClass", "OnStatus")); // После добавления
 
@@ -523,14 +530,26 @@ if (!$mail->send()) {
 }
 
    return true;
-}                       
-                                 
+}                         
 
 AddEventHandler("iblock", "OnBeforeIBlockElementUpdate", "CancelActiveChange");
                                                               
-function CancelActiveChange(&$arFields) {
-    if($arFields['MODIFIED_BY'] == EXCHANGE_1C_USER) {
-        unset($arFields['ACTIVE']);    
+function CancelActiveChange(&$arFields) { 
+
+    global $USER;
+    $userID = $USER->GetID();  
+    
+    $date = date('Y-m-d, H:i:s');      
+    $order_log = 'Date: '.$date.'; ID: '.$arFields['ID'].'; USER: '.$userID.'; MODIFIED_BY: '.$arFields['MODIFIED_BY'].'; ACTIVE: '.$arFields['ACTIVE'].'; EXCHANGE_1C_USER: '.EXCHANGE_1C_USER.';';
+    $file = $_SERVER['DOCUMENT_ROOT'].'/local/php_interface/include/update_log.log';    
+    logger($order_log, $file);
+        
+    if(($arFields['MODIFIED_BY'] == EXCHANGE_1C_USER) || ($userID == EXCHANGE_1C_USER)) {                                   
+        unset($arFields['ACTIVE']);   
+         
+        $order_log = 'UNSET - Date: '.$date.'; ID: '.$arFields['ID'];
+        $file = $_SERVER['DOCUMENT_ROOT'].'/local/php_interface/include/update_log.log';  
+        logger($order_log, $file); 
     }       
 }  
 

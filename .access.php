@@ -1,7 +1,10 @@
 <?
+$PERM["test.php"]["*"]="D";
+$PERM["online"]["*"]="R";
+$PERM["desktop_app"]["*"]="R";
+$PERM["upload"]["12"]="T_8";
 $PERM["useful"]["*"]="R";
 $PERM["reviews"]["*"]="D";
-$PERM["test.php"]["*"]="D";
 $PERM["/"]["6"]="X";
 $PERM["/"]["*"]="R";
 ?>
