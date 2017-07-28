@@ -31,6 +31,12 @@ $arUrlRewrite = array(
 		"PATH" => "/about/photo-gallery/index.php",
 	),
 	array(
+		"CONDITION" => "#^/online/(/?)([^/]*)#",
+		"RULE" => "",
+		"ID" => "",
+		"PATH" => "/desktop_app/router.php",
+	),
+	array(
 		"CONDITION" => "#^/okompanii/klienty/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",

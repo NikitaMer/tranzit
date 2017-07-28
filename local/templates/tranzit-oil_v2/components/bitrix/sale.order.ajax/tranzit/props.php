@@ -3,35 +3,35 @@ include($_SERVER["DOCUMENT_ROOT"].$templateFolder."/props_format.php");
 
 function usortTest($a, $b)
 {
-	return $a['SORT'] > $b['SORT'];
+    return $a['SORT'] > $b['SORT'];
 }
 
 $arSections = array();
 
 foreach($arResult["ORDER_PROP"]["USER_PROPS_N"] as $prop)
 {
-	if(!array_key_exists($prop['PROPS_GROUP_ID'], $arSections))
-	{
-		$arSections[$prop['PROPS_GROUP_ID']] = array(
-			'ID' => $prop['PROPS_GROUP_ID'],
-			'NAME' => $prop['GROUP_NAME'],
-			);
-	}
+    if(!array_key_exists($prop['PROPS_GROUP_ID'], $arSections))
+    {
+        $arSections[$prop['PROPS_GROUP_ID']] = array(
+            'ID' => $prop['PROPS_GROUP_ID'],
+            'NAME' => $prop['GROUP_NAME'],
+            );
+    }
 
-	$arSections[$prop['PROPS_GROUP_ID']]['PROP'][] = $prop;
+    $arSections[$prop['PROPS_GROUP_ID']]['PROP'][] = $prop;
 }
 
 foreach($arResult["ORDER_PROP"]["USER_PROPS_Y"] as $prop)
 {
-	if(!array_key_exists($prop['PROPS_GROUP_ID'], $arSections))
-	{
-		$arSections[$prop['PROPS_GROUP_ID']] = array(
-			'ID' => $prop['PROPS_GROUP_ID'],
-			'NAME' => $prop['GROUP_NAME'],
-			);
-	}
+    if(!array_key_exists($prop['PROPS_GROUP_ID'], $arSections))
+    {
+        $arSections[$prop['PROPS_GROUP_ID']] = array(
+            'ID' => $prop['PROPS_GROUP_ID'],
+            'NAME' => $prop['GROUP_NAME'],
+            );
+    }
 
-	$arSections[$prop['PROPS_GROUP_ID']]['PROP'][] = $prop;
+    $arSections[$prop['PROPS_GROUP_ID']]['PROP'][] = $prop;
 }
 
 $count = 0;
@@ -40,22 +40,25 @@ usort($arSections, "usortTest");
 //_print_r($arSections[0]['PROP']);
 ?>
 <?foreach($arSections as $id => $aSection):?>
-	<?
-	if(empty($aSection['PROP']))
-		continue;
+    <?
+    if(empty($aSection['PROP']))
+        continue;
+        
+    if($aSection['ID'] == 17)
+        continue; 
 
-	usort($aSection['PROP'], "usortTest");
-	?>
-	<?if($count > 0):?>
-		<div class="sep"></div>
-		<div class="section_title"><?=$aSection['NAME']?></div>
-	<?else:?>
-		<h1>Оформление заказа</h1>
-	<?endif;?>
+    usort($aSection['PROP'], "usortTest");
+    ?>
+    <?if($count > 0):?>
+        <div class="sep"></div>
+        <div class="section_title"><?=$aSection['NAME']?></div>
+    <?else:?>
+        <h1>Оформление заказа</h1>
+    <?endif;?>
 
-	<? PrintPropsForm($aSection['PROP'], $arParams["TEMPLATE_LOCATION"], $count); ?>
+    <? PrintPropsForm($aSection['PROP'], $arParams["TEMPLATE_LOCATION"], $count); ?>
 
-	<?$count++;?>
+    <?$count++;?>
 <?endforeach;?>
 <?
 #PrintPropsForm($arResult["ORDER_PROP"]["USER_PROPS_N"], $arParams["TEMPLATE_LOCATION"]);
