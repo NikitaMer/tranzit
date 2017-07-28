@@ -1,1 +1,1 @@
-/shop/search/
+/bitrix/admin/sale_order.php
