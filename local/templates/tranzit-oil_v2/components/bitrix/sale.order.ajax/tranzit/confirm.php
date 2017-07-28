@@ -39,7 +39,7 @@
             }
         }
          */                     
-
+       
     ?>
 
     <? if ($arResult["ORDER"]["PRICE"]>0 ) { ?> 
@@ -53,7 +53,14 @@
     <?
         $arOrder = CSaleOrder::GetByID($arResult["ORDER"]["ID"]);
         $price2=$arOrder[PRICE]-$arOrder[SUM_PAID];
-
+        $dbOrderProps = CSaleOrderPropsValue::GetOrderProps($arResult["ORDER"]["ID"]);
+        while ($arOrderProps = $dbOrderProps->Fetch())
+        {            
+            $OrderProps[$arOrderProps["ORDER_PROPS_ID"]] =  $arOrderProps;
+             
+        }
+                                         
+        //$OrderProp = CSaleOrderPropsVariant::GetList(array(), array("ORDER_PROPS_ID" => 11, "VALUE" => $OrderProp[11]["VALUE"]))->GetNext();                
     ?>
 
     <div class="order_detail">
@@ -63,13 +70,16 @@
 
         <h2>Заказ №<?=$arResult["ORDER"]["ACCOUNT_NUMBER"]?> от <?=$arResult["ORDER"]["DATE_INSERT"]?></h2>
         <div class="data">
-            <ul>
-                <li><span>Cпособ получения</span><?=$aDelivery['NAME']?></li>
-                <?if($aDelivery['ID'] == 1):?>
-                    <li><span>Где забирать</span> <?=$aOrderProp['SHOP']['TEXT']?></li>
-                    <?elseif($aDelivery['ID'] == 2):?>
-                    <li><span>Адрес доставки</span> <?=$aOrderProp['DELIVERY_ADRES']['VALUE']?></li>
-                    <?endif;?>
+            <ul> 
+                <?if($arResult["ORDER"]['DELIVERY_ID'] == 1):
+                    $OrderProp = CSaleOrderPropsVariant::GetList(array(), array("ORDER_PROPS_ID" => 11, "VALUE" => $OrderProps[11]["VALUE"]))->GetNext(); ?>
+                    <li><span>Cпособ получения:</span> Самовывоз</li>                
+                    <li><span>Где забирать</span> <?=$OrderProp['NAME']?></li>
+                <?elseif($arResult["ORDER"]['DELIVERY_ID'] == 2):
+                    ?>
+                    <li><span>Cпособ получения:</span> Доставка</li> 
+                    <li><span>Адрес доставки</span> <?=$OrderProps[9]['VALUE']?></li>
+                <?endif;?>
 
 
 
@@ -90,12 +100,15 @@
             <div class="data">
                 <ul>
 
-                    <li><span>Cпособ получения</span><?=$aDelivery['NAME']?></li>
-                    <?if($aDelivery['ID'] == 1):?>
-                        <li><span>Где забирать</span> <?=$aOrderProp['SHOP']['TEXT']?></li>
-                        <?elseif($aDelivery['ID'] == 2):?>
-                        <li><span>Адрес доставки</span> <?=$aOrderProp['DELIVERY_ADRES']['VALUE']?></li>
-                        <?endif;?>
+                <?if($arResult["ORDER"]['DELIVERY_ID'] == 1):
+                    $OrderProp = CSaleOrderPropsVariant::GetList(array(), array("ORDER_PROPS_ID" => 11, "VALUE" => $OrderProps[11]["VALUE"]))->GetNext(); ?>
+                    <li><span>Cпособ получения:</span> Самовывоз</li>                
+                    <li><span>Где забирать</span> <?=$OrderProp['NAME']?></li>
+                <?elseif($arResult["ORDER"]['DELIVERY_ID'] == 2):
+                    ?>
+                    <li><span>Cпособ получения:</span> Доставка</li> 
+                    <li><span>Адрес доставки</span> <?=$OrderProps[9]['VALUE']?></li>
+                <?endif;?>
 
                     <?
 

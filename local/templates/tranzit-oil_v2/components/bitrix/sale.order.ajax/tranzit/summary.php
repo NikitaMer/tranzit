@@ -31,16 +31,18 @@ $allSum=$allSum+$a[GRID][ROWS][$id][PRICE]*$a[GRID][ROWS][$id][QUANTITY];
 // $allSum Предзаказ
 
 
-$CSiteController = SiteController::getEntity();
+$CSiteController = SiteController::getEntity(); 
+$skidka = $arResult["MAX_BONUS"];
 ?>
 
 <script type="text/javascript">
     function changePrice()
     {
+        var a = $(".bonuse_price").html();
         if ($("#ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").prop("checked")===true) { 
             $("#priceoff").css("display","none"); 
             $("#priceon").css("display","block");
-            $("#ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").val(<?=$arResult["MAX_BONUS"]?>);
+            $("#ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").val(a);
         } else { 
             $("#priceon").css("display","none"); 
             $("#priceoff").css("display","block");
@@ -60,13 +62,12 @@ $CSiteController = SiteController::getEntity();
 <dl class="prop w100">
 
 <?
-global $skidka;
-$skidka = $arResult["MAX_BONUS"];
+
 ?>               
                 <input type="text" style="display: none" onchange="submitForm();" maxlength="250" size="0" name="ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>" id="ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>">            
                 <dt> <input OnChange='changePrice();' style="width:15px;" type="checkbox" name="ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>" id="ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>"> <span style="float:right;margin-top:6px;margin-left:-20px;">Использовать бонус</span></dt>
 				
-				<dd style='margin-top:6px;'><?=round($skidka);?> <span>руб.</span></dd>
+				<dd style='margin-top:6px;'><font class="bonuse_price" ><?=round($skidka);?></font> <span>руб.</span></dd>
 			</dl>
 			<?
 			/*
@@ -133,8 +134,8 @@ $skidka = $arResult["MAX_BONUS"];
 			?>
 				<dl class="prop w100">
 					<dt>К оплате</dt>
-                    <dd><div id='priceoff'><?=$CSiteController->getHtmlFormatedPrice($arResult["BASE_LANG_CURRENCY"], $arResult["ORDER_PRICE"] + $arResult["DELIVERY_PRICE"]-$allSum);?></div></dd>
-                    <dd><div id='priceon' style='display:none;'><?=$CSiteController->getHtmlFormatedPrice($arResult["BASE_LANG_CURRENCY"], $arResult["ORDER_PRICE"] + $arResult["DELIVERY_PRICE"]-$skidka-$allSum);?></div></dd>
+                    <dd><div id='priceoff'><?=$CSiteController->getHtmlFormatedPrice($arResult["BASE_LANG_CURRENCY"], $arResult["ORDER_PRICE"] );?></div></dd>
+                    <dd><div id='priceon' style='display:none;'><?=$CSiteController->getHtmlFormatedPrice($arResult["BASE_LANG_CURRENCY"], $arResult["ORDER_PRICE"] - $arResult["MAX_BONUS"]);?></div></dd>
 					
 					<?//=$arResult["ORDER_TOTAL_PRICE_FORMATED"]?>
 				</dl>

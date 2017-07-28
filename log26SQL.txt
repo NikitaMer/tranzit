@@ -1,1 +1,0 @@
-SQL запросINSERT INTO order_agent (user, status, product, QUANTITY, PRICE, PAY_SYSTEM_ID, DELIVERY_ID) VALUES (3772, 0, 5871, 1, 273,5,1);

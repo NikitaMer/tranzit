@@ -1,1 +1,1 @@
-/bitrix/tools/public_session.php
+/bitrix/components/bitrix/pull.request/ajax.php

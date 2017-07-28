@@ -177,7 +177,7 @@
 
 
 
-    AddEventHandler("sale", "OnBeforeOrderAdd", Array("MyClass", "OrderTo")); // Разбить заказ на 2 части, те что есть и тех что нету
+    //AddEventHandler("sale", "OnBeforeOrderAdd", Array("MyClass", "OrderTo")); // Разбить заказ на 2 части, те что есть и тех что нету
 
 
 
@@ -233,7 +233,7 @@
                         $arItems["QUANTITY"]);
                     $arItems = CSaleBasket::GetByID($arItems["ID"]);
                 }
-
+                
                 $arBasketItems[] = $arItems;
 
                 //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/log28.txt','a');
@@ -245,9 +245,9 @@
                 $ar_res = CCatalogProduct::GetByID($arItems[PRODUCT_ID]); 
 
                 $price = CPrice::GetBasePrice($arItems[PRODUCT_ID]);
-
+                
                 // Сохранить в файло $arItems[NOTES] 
-
+                
                 if ( ($ar_res["QUANTITY"]<=0) && ($arItems[NOTES]=='Интернет Магазин') )
                 {
 
