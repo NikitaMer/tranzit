@@ -1,1 +1,1 @@
-/bitrix/components/bitrix/pull.request/ajax.php
+/local/ajax/add2compare.php
