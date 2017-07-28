@@ -1,1 +1,1 @@
-/bitrix/admin/sale_order.php
+/bitrix/tools/public_session.php
