@@ -1,1 +1,1 @@
-/catalog/elektrika-12v/lampy/narva/narva-h4-75-70w-24v/
+/bitrix/tools/public_session.php
