@@ -1,6 +1,6 @@
 Array
 (
-    [sessid] => a020b114525e78efc23721a80edd988b
+    [sessid] => 4fef1eb746ce8261d93564f048cca992
     [site_id] => s1
     [action_var] => action
     [select_props] => NAME,DELETE,PRICE,QUANTITY,SUM,PROPERTY_CML2_ARTICLE_VALUE
@@ -11,8 +11,5 @@ Array
     [hide_coupon] => Y
     [use_prepayment] => N
     [action] => recalculate
-    [QUANTITY_93719] => 1
-    [QUANTITY_93720] => 1
-    [QUANTITY_93721] => 4
-    [QUANTITY_93722] => 1
+    [QUANTITY_88996] => 1
 )

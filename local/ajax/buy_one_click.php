@@ -125,6 +125,7 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 					"PASSWORD"          => $pass,
 					"CONFIRM_PASSWORD"  => $pass,
 					//"PERSONAL_PHOTO"    => $request->getQuery('PHONE')
+                    "GROUP_ID"          => 13,
 				);
 
 				$USER_ID = $user->Add($arUserFields);
