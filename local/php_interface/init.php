@@ -423,9 +423,9 @@
     $e=$e[0];
 
 
-    $f=fopen($_SERVER["DOCUMENT_ROOT"].'/loge.txt','w');
-    fwrite($f,$e);
-    fclose($f);
+    //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/loge.txt','w');
+    //fwrite($f,$e);
+    //fclose($f);
 
 
     function custom_mail($to, $subject, $message, $additionalHeaders = '')
