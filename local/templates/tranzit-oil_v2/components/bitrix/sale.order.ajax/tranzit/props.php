@@ -44,7 +44,7 @@ usort($arSections, "usortTest");
     if(empty($aSection['PROP']))
         continue;
         
-    if($aSection['ID'] == 17)
+    if($aSection['NAME'] == 'Бонусная система')
         continue; 
 
     usort($aSection['PROP'], "usortTest");
