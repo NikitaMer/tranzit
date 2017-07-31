@@ -1,1 +1,1 @@
-/bitrix/tools/public_session.php
+
