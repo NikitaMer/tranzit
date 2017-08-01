@@ -1,0 +1,18 @@
+Array
+(
+    [sessid] => b59dfcd09026e303eed6e3b047a13945
+    [site_id] => s1
+    [action_var] => action
+    [select_props] => NAME,DELETE,PRICE,QUANTITY,SUM,PROPERTY_CML2_ARTICLE_VALUE
+    [offers_props] => 
+    [quantity_float] => N
+    [count_discount_4_all_quantity] => N
+    [price_vat_show_value] => N
+    [hide_coupon] => Y
+    [use_prepayment] => N
+    [action] => recalculate
+    [QUANTITY_93804] => 9
+    [QUANTITY_93805] => 2
+    [QUANTITY_93806] => 4
+    [QUANTITY_93807] => 14
+)

@@ -121,11 +121,10 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 					"LOGIN"             => $request->getQuery('PHONE'),
 					"LID"               => SITE_ID,
 					"ACTIVE"            => "Y",
-					"GROUP_ID"          => array(5),
 					"PASSWORD"          => $pass,
 					"CONFIRM_PASSWORD"  => $pass,
 					//"PERSONAL_PHOTO"    => $request->getQuery('PHONE')
-                    "GROUP_ID"          => 13,
+                    "GROUP_ID"          => array(13),
 				);
 
 				$USER_ID = $user->Add($arUserFields);

@@ -39,3 +39,35 @@ git status
 git add --a
 git commit -m "local changes"
 git push origin master
+git status
+git add --a 
+git commit -m "local changes"
+git push origin master
+git pull origin master
+git status
+git diff
+git add --a
+git commit -m "local changes"
+git pull origin master
+git status
+git add --a
+git commit -m "local changes"
+git status
+git pull origin master
+git pull origin master
+git status
+git add --a
+git commit -m "local changes"
+git pull origin master
+git status
+git status
+git status
+git add --a
+git commit -m "local changes"
+git push origin master
+git pull origin master
+git add --a
+git commit -m "local changes"
+git push origin master
+git pull origin master
+git pull origin master
