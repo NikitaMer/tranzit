@@ -1,6 +1,6 @@
 Array
 (
-    [sessid] => 70c7ad086668553a2be7e78b2edbcc9c
+    [sessid] => 2b00be23e362e832e0ad8e8d9d3d0d0b
     [site_id] => s1
     [action_var] => action
     [select_props] => NAME,DELETE,PRICE,QUANTITY,SUM,PROPERTY_CML2_ARTICLE_VALUE
@@ -11,20 +11,9 @@ Array
     [hide_coupon] => Y
     [use_prepayment] => N
     [action] => recalculate
-    [QUANTITY_93557] => 2
-    [QUANTITY_93558] => 1
-    [QUANTITY_93559] => 1
-    [QUANTITY_93560] => 2
-    [QUANTITY_93561] => 4
-    [QUANTITY_93562] => 2
-    [QUANTITY_93766] => 2
-    [QUANTITY_93875] => 1
-    [QUANTITY_93876] => 1
-    [QUANTITY_93877] => 1
-    [QUANTITY_93878] => 1
-    [QUANTITY_93879] => 1
-    [QUANTITY_93880] => 1
-    [QUANTITY_93881] => 8
-    [QUANTITY_93882] => 20
-    [QUANTITY_93883] => 3
+    [QUANTITY_93914] => 1
+    [QUANTITY_93915] => 12
+    [QUANTITY_93916] => 2
+    [QUANTITY_93917] => 5
+    [QUANTITY_93918] => 6
 )
