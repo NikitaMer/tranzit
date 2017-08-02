@@ -64,7 +64,13 @@
     ?>
 
     <div class="order_detail">
-
+    <script type="text/javascript">
+        ga('require', 'ecommerce', 'ecommerce.js');
+        ga('ecommerce:addTransaction', {
+            'id': {<?=$arResult["ORDER"]["ID"]?>}
+        });
+        ga('ecommerce:send');
+    </script>
     <? if ($arResult["ORDER"]["PRICE"]>0 ) 
     { ?>
 
@@ -157,7 +163,7 @@
     <? if (!empty($arResult["PAY_SYSTEM"])) 
     {  ?>
             <br /><br />
-
+            
             <table class="sale_order_full_table">
                 <tr>
                     <td class="ps_logo">

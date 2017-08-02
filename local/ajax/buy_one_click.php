@@ -175,7 +175,7 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 			$out['MESSAGE'][] = 'Заказ №'.$ORDER_ID.' оформлен.<br>Менеджер свяжется с Вами <br>для уточнения деталей .';
 
             $arOrderNew = CSaleOrder::GetByID($ID);
-
+            /*
             //send mail
             $arFields = array(
                 "ORDER_ID" => $ORDER_ID,
@@ -193,7 +193,7 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 
             $event = new \CEvent;
             $event->Send($eventName, 's1', $arFields, "N");
-
+            */
 		}
 
 	}
