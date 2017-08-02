@@ -98,17 +98,17 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
                         ?>
 
                         BX.saleOrderAjax.init(<?=CUtil::PhpToJSObject(array(
-					'source' => $this->__component->getPath().'/get.php',
-					'cityTypeId' => intval($city['ID']),
-					'messages' => array(
-						'otherLocation' => '--- '.GetMessage('SOA_OTHER_LOCATION'),
-						'moreInfoLocation' => '--- '.GetMessage('SOA_NOT_SELECTED_ALT'), // spike: for children of cities we place this prompt
-						'notFoundPrompt' => '<div class="-bx-popup-special-prompt">'.GetMessage('SOA_LOCATION_NOT_FOUND').'.<br />'.GetMessage('SOA_LOCATION_NOT_FOUND_PROMPT', array(
-							'#ANCHOR#' => '<a href="javascript:void(0)" class="-bx-popup-set-mode-add-loc">',
-							'#ANCHOR_END#' => '</a>'
-						)).'</div>'
-					)
-				))?>);
+                    'source' => $this->__component->getPath().'/get.php',
+                    'cityTypeId' => intval($city['ID']),
+                    'messages' => array(
+                        'otherLocation' => '--- '.GetMessage('SOA_OTHER_LOCATION'),
+                        'moreInfoLocation' => '--- '.GetMessage('SOA_NOT_SELECTED_ALT'), // spike: for children of cities we place this prompt
+                        'notFoundPrompt' => '<div class="-bx-popup-special-prompt">'.GetMessage('SOA_LOCATION_NOT_FOUND').'.<br />'.GetMessage('SOA_LOCATION_NOT_FOUND_PROMPT', array(
+                            '#ANCHOR#' => '<a href="javascript:void(0)" class="-bx-popup-set-mode-add-loc">',
+                            '#ANCHOR_END#' => '</a>'
+                        )).'</div>'
+                    )
+                ))?>);
 
                         <?endif?>
 
