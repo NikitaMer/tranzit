@@ -121,11 +121,10 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 					"LOGIN"             => $request->getQuery('PHONE'),
 					"LID"               => SITE_ID,
 					"ACTIVE"            => "Y",
-					"GROUP_ID"          => array(5),
 					"PASSWORD"          => $pass,
 					"CONFIRM_PASSWORD"  => $pass,
 					//"PERSONAL_PHOTO"    => $request->getQuery('PHONE')
-                    "GROUP_ID"          => 13,
+                    "GROUP_ID"          => array(13),
 				);
 
 				$USER_ID = $user->Add($arUserFields);
@@ -176,7 +175,7 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 			$out['MESSAGE'][] = 'Заказ №'.$ORDER_ID.' оформлен.<br>Менеджер свяжется с Вами <br>для уточнения деталей .';
 
             $arOrderNew = CSaleOrder::GetByID($ID);
-
+            /*
             //send mail
             $arFields = array(
                 "ORDER_ID" => $ORDER_ID,
@@ -194,7 +193,7 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 
             $event = new \CEvent;
             $event->Send($eventName, 's1', $arFields, "N");
-
+            */
 		}
 
 	}
