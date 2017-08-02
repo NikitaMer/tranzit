@@ -23,6 +23,14 @@
             die();
         }
     }
+    
+    function logger($data, $file) {
+        file_put_contents(
+            $file,
+            var_export($data, 1)."\n",
+            FILE_APPEND
+        );
+    }
 
     $aURI = Array();
     global $aURI;

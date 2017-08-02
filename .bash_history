@@ -71,3 +71,8 @@ git commit -m "local changes"
 git push origin master
 git pull origin master
 git pull origin master
+git status
+git status
+git add --a
+git commit -m '01.08 local changes'
+git push origin master
