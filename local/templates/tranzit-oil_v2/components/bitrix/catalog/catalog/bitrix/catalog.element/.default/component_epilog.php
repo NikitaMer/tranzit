@@ -33,6 +33,11 @@ if($ar_res = $res->GetNext()){
 <!-- tabs block -->
     <div class="catalog-tab">
         <ul class="tab-control">
+
+            <?if($ar_res['DETAIL_TEXT']){?>
+                <li><a href="#">Описание</a></li>
+            <?}?>
+
             <li class="active"><a href="#">Характеристики</a></li>
             <?if($delivery_file_ex):?>
             <li><a href="#">Оплата и доставка</a></li>
@@ -41,16 +46,20 @@ if($ar_res = $res->GetNext()){
                 <li><a href="#">Видео</a></li>
             <?}?>
 
-            <?if($ar_res['DETAIL_TEXT']){?>
-                <li><a href="#">Описание</a></li>
-            <?}?>
 
 
         </ul>
 
         <div class="tabs">
+           <?if($ar_res['DETAIL_TEXT']):?>
 
             <!-- tab 1 -->
+                <div class="tab">
+                    <?=$ar_res['DETAIL_TEXT'];?>
+                </div>
+            <?endif;?>
+
+            <!-- tab 2 -->
             <div class="tab">
 
                 <?if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS']):?>
@@ -95,25 +104,19 @@ if($ar_res = $res->GetNext()){
 
 
             <?if($delivery_file_ex):?>
-            <!-- tab 2 -->
+            <!-- tab 3 -->
                 <div class="tab">
                     <?include($delivery_file);?>
                 </div>
             <?endif;?>
 
            <?if($arResult['DISPLAY_PROPERTIES']["VIDEO"]):?>
-            <!-- tab 3 -->
+            <!-- tab 4 -->
                 <div class="tab">
                     <?=$arResult['DISPLAY_PROPERTIES']["VIDEO"]["DISPLAY_VALUE"];?>
                 </div>
             <?endif;?>
 
-           <?if($ar_res['DETAIL_TEXT']):?>
-            <!-- tab 4 -->
-                <div class="tab">
-                    <?=$ar_res['DETAIL_TEXT'];?>
-                </div>
-            <?endif;?>
 
             <!-- tab 5 -->
             <div class="tab">
@@ -332,6 +335,10 @@ if($ar_res = $res->GetNext()){
     <!-- tabs block -->
     <div class="catalog-tab">
         <ul class="tab-control">
+            <?if($ar_res['DETAIL_TEXT']){?>
+                <li><a href="#">Описание</a></li>
+            <?}?>
+
             <li class="active"><a href="#">Характеристики</a></li>
             <?if($delivery_file_ex):?>
             <li><a href="#">Оплата и доставка</a></li>
@@ -341,14 +348,18 @@ if($ar_res = $res->GetNext()){
                 <li><a href="#">Видео</a></li>
             <?}?>
 
-            <?if($ar_res['DETAIL_TEXT']){?>
-                <li><a href="#">Описание</a></li>
-            <?}?>
+
         </ul>
 
         <div class="tabs">
-
+           <?if($ar_res['DETAIL_TEXT']):?>
             <!-- tab 1 -->
+                <div class="tab">
+                    <?=$ar_res['DETAIL_TEXT'];?>
+                </div>
+            <?endif;?>
+
+            <!-- tab 2 -->
             <div class="tab">
 
                 <?if (!empty($arResult['DISPLAY_PROPERTIES']) || $arResult['SHOW_OFFERS_PROPS']):?>
@@ -390,25 +401,20 @@ if($ar_res = $res->GetNext()){
 
 
             <?if($delivery_file_ex):?>
-            <!-- tab 2 -->
+            <!-- tab 3 -->
             <div class="tab">
                 <?include($delivery_file);?>
             </div>
             <?endif;?>
 
            <?if($arResult['DISPLAY_PROPERTIES']["VIDEO"]):?>
-            <!-- tab 3 -->
+            <!-- tab 4 -->
                 <div class="tab">
                     <?=$arResult['DISPLAY_PROPERTIES']["VIDEO"]["DISPLAY_VALUE"];?>
                 </div>
             <?endif;?>
 
-           <?if($ar_res['DETAIL_TEXT']):?>
-            <!-- tab 4 -->
-                <div class="tab">
-                    <?=$ar_res['DETAIL_TEXT'];?>
-                </div>
-            <?endif;?>
+
             <!-- tab 5 -->
             <div class="tab">
 
