@@ -34,7 +34,7 @@ $strAlt = (
 );
 
 ?>
-
+ <?$detail_text_tab = $arResult["DETAIL_TEXT"];?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/'.SITE_TEMPLATE_PATH.'/include/status_bayers.php'; ?>
 
 <? if ($status_bayer != 'Юридическое лицо') { ?>
@@ -515,6 +515,7 @@ if ($ht!='') echo "<h2 style='font-size:16px;'>$ht</h2>";
         </div>
     </div>
 </div>
+
 <? } else { ?>
     <h1>Товар не доступный для оптовой продажи</h1>
 <? } ?>

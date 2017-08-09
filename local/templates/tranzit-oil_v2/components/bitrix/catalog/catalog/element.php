@@ -117,7 +117,7 @@ unset($basketAction);
 if ($ElementID > 0)
 {
 
-	
-	
+
+
 }
 ?>
