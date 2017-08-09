@@ -11,14 +11,10 @@ $APPLICATION->SetTitle("Адреса магазинов");
  <br>
  <b>4.&nbsp;Автокомплекс&nbsp;«Ирбис»</b>, 847 км, а/д М-7 «Волга». Тел. 8-919-626-81-77. Режим работы: круглосуточно.<br>
  <br>
- <b>5.&nbsp;Магазин «Транзит-Авто», </b>ПАЗС-Куркачи, Высокогорский р-он, въезд на завод «Винербергер кирпич». Тел. 8-917-277-74-56. Режим работы: с 8 до 19, ежедневно, без обеда.<br>
+ <b>5. Магазин «Транзит-Авто»</b>, с. Верхний Услон, ул. Чехова, д.43б, тел. 8-987-299-49-34. Режим работы: с 8.00 до 21.00, ежедневно, без обеда.<br>
  <br>
- <b>6.&nbsp;Магазин «Транзит-Авто», </b>с. Пестрецы, ул. Гаврилова, зд. 11. Тел. 8-9172-750-191. Режим работы: с 8 до 20, ежедневно, без обеда.<br>
+ <b>6.</b>&nbsp;<b>Автокомплекс&nbsp;«Ирбис»</b>, 710 км, а/д М-7 «Волга». Тел. 8-917-275-74-57. Режим работы: круглосуточно.<br>
  <br>
- <b>7. Магазин «Транзит-Авто»</b>, с. Верхний Услон, ул. Чехова, д.43б, тел. 8-987-299-49-34. Режим работы: с 8.00 до 21.00, ежедневно, без обеда.<br>
+ <b>7.&nbsp;Автокомплекс&nbsp;«Ирбис»</b>, 147&nbsp;км, а/д М-7 «Волга». Тел. 8-961-255-63-55. Режим работы: круглосуточно.<br>
  <br>
- <b>8.</b>&nbsp;<b>Автокомплекс&nbsp;«Ирбис»</b>, 710 км, а/д М-7 «Волга». Тел. 8-917-275-74-57. Режим работы: круглосуточно.<br>
- <br>
- <b>9.&nbsp;Автокомплекс&nbsp;«Ирбис»</b>, 147&nbsp;км, а/д М-7 «Волга». Тел. 8-961-255-63-55. Режим работы: круглосуточно.<br>
- <br>
-<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=g7MFPBhNNS7gxv9Kw1ArUx5WpDB-kGg9&amp;width=706&amp;height=480&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ag7MFPBhNNS7gxv9Kw1ArUx5WpDB-kGg9&amp;width=707&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
