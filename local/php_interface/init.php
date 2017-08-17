@@ -110,7 +110,10 @@
     AddEventHandler("sale", "OnSaleComponentOrderOneStepPersonType", "selectSavedPersonType");
     function selectSavedPersonType(&$arResult, &$arUserResult, $arParams)
     {
-        if ( CSite::InGroup( array(9) )){
+        global $USER;
+        $user =  $USER->GetByID($USER->GetID())->Fetch();
+  
+        if ( $user["UF_CONTRAGENT"] ==  5){
             $arResult['PERSON_TYPE'][1]['CHECKED'] = 'N';
             $arUserResult['PERSON_TYPE_ID'] = 3;
             $arResult['PERSON_TYPE'][3]['CHECKED'] = 'Y';     
@@ -118,7 +121,7 @@
             $arResult['PERSON_TYPE'][1]['CHECKED'] = 'Y';
             $arUserResult['PERSON_TYPE_ID'] = 1;
             $arResult['PERSON_TYPE'][3]['CHECKED'] = 'N';     
-        } 
+        }    
     }
 
 

@@ -124,8 +124,8 @@
     </script>
 
     <input type="hidden" name="BUYER_STORE" id="BUYER_STORE" value="<?=$arResult["BUYER_STORE"]?>" />
-
-    <?
+    
+    <?                 
     if(!empty($arResult["DELIVERY"]))
     {
         $width = ($arParams["SHOW_STORES_IMAGES"] == "Y") ? 850 : 700;
@@ -135,9 +135,10 @@
             <div class="block" style="display: inline-block; overflow: hidden;">
 
                 <?
-
+                
                 foreach ($arResult["DELIVERY"] as $delivery_id => $arDelivery)
                 {
+
                     if ($delivery_id !== 0 && intval($delivery_id) <= 0)
                     {
                         foreach ($arDelivery["PROFILES"] as $profile_id => $arProfile)
@@ -212,43 +213,44 @@
                     }
                     else // stores and courier
                     {
-                        $clickHandler = '';
+                            $clickHandler = '';
 
-                        /*if (count($arDelivery["STORE"]) > 0)
-                            $clickHandler = "onClick = \"fShowStore('".$arDelivery["ID"]."','".$arParams["SHOW_STORES_IMAGES"]."','".$width."','".SITE_ID."')\";";
-                        else
-                            $clickHandler = "onClick = \"BX('ID_DELIVERY_ID_".$arDelivery["ID"]."').checked=true;submitForm();\"";
-                        */
-                        ?>
+                            /*if (count($arDelivery["STORE"]) > 0)
+                                $clickHandler = "onClick = \"fShowStore('".$arDelivery["ID"]."','".$arParams["SHOW_STORES_IMAGES"]."','".$width."','".SITE_ID."')\";";
+                            else
+                                $clickHandler = "onClick = \"BX('ID_DELIVERY_ID_".$arDelivery["ID"]."').checked=true;submitForm();\"";
+                            */
+                            ?>
 
-                        <input type="radio"
-                            id="ID_DELIVERY_ID_<?= $arDelivery["ID"] ?>"
-                            name="<?=htmlspecialcharsbx($arDelivery["FIELD_NAME"])?>"
-                            value="<?= $arDelivery["ID"] ?>"<?if ($arDelivery["CHECKED"]=="Y") echo " checked";?>
-                            onclick="submitForm();"
-                            />
+                            <input type="radio"
+                                id="ID_DELIVERY_ID_<?= $arDelivery["ID"] ?>"
+                                name="<?=htmlspecialcharsbx($arDelivery["FIELD_NAME"])?>"
+                                value="<?= $arDelivery["ID"] ?>"<?if ($arDelivery["CHECKED"]=="Y") echo " checked";?>
+                                onclick="submitForm();"
+                                />
 
-                            <label class="select" for="ID_DELIVERY_ID_<?=$arDelivery["ID"]?>" <?=$clickHandler?>>
-                                <div class="name"><?= htmlspecialcharsbx($arDelivery["NAME"])?></div>
+                                <label class="select" for="ID_DELIVERY_ID_<?=$arDelivery["ID"]?>" <?=$clickHandler?>>
+                                    <div class="name"><?= htmlspecialcharsbx($arDelivery["NAME"])?></div>
 
-                                <?
-                                #if (strlen($arDelivery["PERIOD_TEXT"])>0)
-                                    #echo $arDelivery["PERIOD_TEXT"];
+                                    <?
+                                    #if (strlen($arDelivery["PERIOD_TEXT"])>0)
+                                        #echo $arDelivery["PERIOD_TEXT"];
 
-                                ?>
-                                <?//=GetMessage("SALE_DELIV_PRICE");?><?//=$arDelivery["PRICE_FORMATED"]?>
+                                    ?>
+                                    <?//=GetMessage("SALE_DELIV_PRICE");?><?//=$arDelivery["PRICE_FORMATED"]?>
 
 
-                                <?/*if (count($arDelivery["STORE"]) > 0):?>
-                                    <span id="select_store"<?if(strlen($arResult["STORE_LIST"][$arResult["BUYER_STORE"]]["TITLE"]) <= 0) echo " style=\"display:none;\"";?>>
-                                        <span class="select_store"><?=GetMessage('SOA_ORDER_GIVE_TITLE');?>: </span>
-                                        <span class="ora-store" id="store_desc"><?=htmlspecialcharsbx($arResult["STORE_LIST"][$arResult["BUYER_STORE"]]["TITLE"])?></span>
-                                    </span>
-                                <?endif;*/?>
+                                    <?/*if (count($arDelivery["STORE"]) > 0):?>
+                                        <span id="select_store"<?if(strlen($arResult["STORE_LIST"][$arResult["BUYER_STORE"]]["TITLE"]) <= 0) echo " style=\"display:none;\"";?>>
+                                            <span class="select_store"><?=GetMessage('SOA_ORDER_GIVE_TITLE');?>: </span>
+                                            <span class="ora-store" id="store_desc"><?=htmlspecialcharsbx($arResult["STORE_LIST"][$arResult["BUYER_STORE"]]["TITLE"])?></span>
+                                        </span>
+                                    <?endif;*/?>
 
-                            </label>
-                        <?
-                    }
+                                </label>
+                            <?
+                        }
+                    
                 }
                 ?>
                 <div style="clear: both"></div>
