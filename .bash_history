@@ -76,3 +76,14 @@ git status
 git add --a
 git commit -m '01.08 local changes'
 git push origin master
+git status
+git add --a
+git commit -m 'local changes (D)'
+git pull origin master
+git add --a
+git commit -m 'local changes (D)'
+git pull origin master
+git push origin master
+git status
+git add --a
+git commit -m 'SUP-6533: add logger'

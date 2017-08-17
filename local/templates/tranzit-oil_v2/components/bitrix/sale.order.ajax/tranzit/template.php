@@ -215,6 +215,8 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
 
                         echo '<div class="sep line"></div>';
 
+                        
+                        
                         if ($arParams["DELIVERY_TO_PAYSYSTEM"] == "p2d")
                         {
                             echo '<!-- p2d -->';
@@ -231,7 +233,7 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
                             echo '<!-- delivery -->';
                             include($_SERVER["DOCUMENT_ROOT"].$templateFolder."/delivery.php");
                             echo '<!-- /delivery -->';
-
+                            
                             foreach($arResult["ORDER_PROP"]["RELATED"] as $index => $prop)
                             {
                                 if($prop['CODE'] == 'DELIVERY_ADRES' || $prop['CODE'] == 'SHOP')
