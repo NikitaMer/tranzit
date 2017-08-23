@@ -369,14 +369,16 @@ if($ar_res = $res->GetNext()){
                     <div class="prop-block" id="tovar-prop-block">
                         <?foreach ($arResult['DISPLAY_PROPERTIES'] as &$arOneProp):?>
                             <dl class="prop">
-                                <dt class="item"><? echo $arOneProp['NAME']; ?></dt>
-                                <dd class="item">
-                                    <? echo (
-                                    is_array($arOneProp['DISPLAY_VALUE'])
-                                        ? implode(' / ', $arOneProp['DISPLAY_VALUE'])
-                                        : $arOneProp['DISPLAY_VALUE']
-                                    ); ?>
-                                </dd>
+                                <?if($arOneProp["CODE"] != 'VIDEO'){?>
+                                    <dt class="item"><? echo $arOneProp['NAME']; ?></dt>
+                                    <dd class="item">
+                                        <? echo (
+                                        is_array($arOneProp['DISPLAY_VALUE'])
+                                            ? implode(' / ', $arOneProp['DISPLAY_VALUE'])
+                                            : $arOneProp['DISPLAY_VALUE']
+                                        ); ?>
+                                    </dd>
+                                <?}?>
                             </dl>
                         <?endforeach;?>
                     </div>
