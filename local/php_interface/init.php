@@ -24,7 +24,8 @@
         }
     }
     
-    function logger($data, $file) {
+    function logger($data, $file = "log.log") {
+        $file = $_SERVER['DOCUMENT_ROOT'].'/'.$file;
         file_put_contents(
             $file,
             var_export($data, 1)."\n",
@@ -540,6 +541,26 @@
             logger($order_log, $file); 
         }       
     }   
+    
+    AddEventHandler("main", "OnAfterUserLogin", "CheckBasket");
+
+    function CheckBasket(&$fields)
+    {
+        global $USER;
+        if ($fields["USER_ID"] > 0) {
+            $arUsers = $USER->GetList(($by="personal_country"), ($order="desc"), array("ID"=>$fields["USER_ID"]), array("SELECT" => array("UF_CONTRAGENT")))->Fetch();
+            if ($arUsers["UF_CONTRAGENT"] = 5) {
+                $test = CSaleBasket::GetList(array(), array("USER_ID" => $fields["USER_ID"], "ORDER_ID" => "NULL"));
+                while ($result = $test->GetNext()) {
+                    $res = CIBlockElement::GetList(Array(), array("ID"=>$result["PRODUCT_ID"]),false, false, array("PROPERTY_HIDE_OPT", "ID"))->GetNext();
+                    if ($res["PROPERTY_HIDE_OPT_VALUE"] == 1) {
+                        CSaleBasket::Delete($result["ID"]);  
+                    }                        
+                }    
+            }
+                                
+        }    
+    }
                                                                                                                                  
 
 
