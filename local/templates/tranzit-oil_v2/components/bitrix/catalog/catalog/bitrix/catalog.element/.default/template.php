@@ -75,7 +75,7 @@ $strAlt = (
         <div class="columns">
 
                 <div class="col main_left">
-                <?   arshow($arResult['PROPERTIES']);
+                <?
                 if ($arResult['PROPERTIES']["SHORT_DESCRIPTON"]["VALUE"] != '' )
                 {
                     echo '<p>'.$arResult['PROPERTIES']["SHORT_DESCRIPTON"]["VALUE"].'</p>';
