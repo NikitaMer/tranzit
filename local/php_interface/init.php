@@ -7,7 +7,7 @@
 
     define('CATALOG_IBLOCK_ID', 73);                  
     define('EXCHANGE_1C_USER', 4);
-    define('ENTITY', 5);
+    define('ENTITY', 5); // Свойство пользователя UF_CONTRAGENT Юр. лицо.
 
     function arshow($array, $adminCheck = false, $dieAfterArshow = false){
         global $USER;
@@ -549,7 +549,7 @@
         global $USER;
         if ($fields["USER_ID"] > 0) {
             $arUsers = $USER->GetList(($by = "personal_country"), ($order = "desc"), array("ID"=>$fields["USER_ID"]), array("SELECT" => array("UF_CONTRAGENT")))->Fetch();
-            if ($arUsers["UF_CONTRAGENT"] == 5) {
+            if ($arUsers["UF_CONTRAGENT"] == ENTITY) {
                 $test = CSaleBasket::GetList(array(), array("USER_ID" => $fields["USER_ID"], "ORDER_ID" => "NULL"));
                 while ($result = $test->GetNext()) {
                     $res = CIBlockElement::GetList(Array(), array("ID" => $result["PRODUCT_ID"]),false, false, array("PROPERTY_HIDE_OPT", "ID"))->GetNext();
