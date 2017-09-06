@@ -230,21 +230,6 @@ $theme = $request->getQuery('theme');
 	            </div>
 			<?}?>
 
-
-			<?$APPLICATION->IncludeComponent(
-			 "bitrix:main.userconsent.request",
-			 "",
-			 array(
-				 "ID" => $arParams["USER_CONSENT_ID"],
-				 "IS_CHECKED" => $arParams["USER_CONSENT_IS_CHECKED"],
-				 "AUTO_SAVE" => "Y",
-				 "IS_LOADED" => $arParams["USER_CONSENT_IS_LOADED"],
-				 "REPLACE" => array(
-				  'button_caption' => GetMessage("AUTH_REGISTER"),
-				  'fields' => array('Email', 'Имя')
-				 ),
-			 )
-			);?>
 			<div >
 				<p style="text-align:justify;font-size: 10px;line-height: 12px;">	Нажимая кнопку «<?=GetMessage("AUTH_REGISTER")?>», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», <a href="/documents/agreement_.pdf" target="_blank">на условиях и для целей, определенных в Согласии на обработку персональных данных</a></p>
 			</div>
