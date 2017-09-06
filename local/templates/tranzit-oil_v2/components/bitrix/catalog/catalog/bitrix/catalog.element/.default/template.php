@@ -34,7 +34,7 @@ $strAlt = (
 );
 
 ?>
-
+ <?$detail_text_tab = $arResult["DETAIL_TEXT"];?>
 <?php include $_SERVER['DOCUMENT_ROOT'].'/'.SITE_TEMPLATE_PATH.'/include/status_bayers.php'; ?>
 
 <? if ($status_bayer != 'Юридическое лицо') { ?>
@@ -76,9 +76,9 @@ $strAlt = (
 
                 <div class="col main_left">
                 <?
-                if ('' != $arResult['PREVIEW_TEXT'] && '' == $arResult['DETAIL_TEXT'])
+                if ($arResult['PROPERTIES']["SHORT_DESCRIPTON"]["VALUE"] != '' )
                 {
-                    echo ('html' == $arResult['PREVIEW_TEXT_TYPE'] ? $arResult['PREVIEW_TEXT'] : '<p>'.$arResult['PREVIEW_TEXT'].'</p>');
+                    echo '<p>'.$arResult['PROPERTIES']["SHORT_DESCRIPTON"]["VALUE"].'</p>';
                 }
                 elseif ('' != $arResult['DETAIL_TEXT'])
                 {
@@ -316,9 +316,9 @@ if ($ht!='') echo "<h2 style='font-size:16px;'>$ht</h2>";
 
                 <div class="col main_left">
                 <?
-                if ('' != $arResult['PREVIEW_TEXT'] && '' == $arResult['DETAIL_TEXT'])
+                if ($arResult['PROPERTIES']["SHORT_DESCRIPTON"]["VALUE"]["TEXT"] != '' )
                 {
-                    echo ('html' == $arResult['PREVIEW_TEXT_TYPE'] ? $arResult['PREVIEW_TEXT'] : '<p>'.$arResult['PREVIEW_TEXT'].'</p>');
+                    echo '<p>'.$arResult['PROPERTIES']["SHORT_DESCRIPTON"]["~VALUE"]["TEXT"].'</p>';
                 }
                 elseif ('' != $arResult['DETAIL_TEXT'])
                 {
@@ -515,6 +515,7 @@ if ($ht!='') echo "<h2 style='font-size:16px;'>$ht</h2>";
         </div>
     </div>
 </div>
+
 <? } else { ?>
     <h1>Товар не доступный для оптовой продажи</h1>
 <? } ?>

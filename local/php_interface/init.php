@@ -7,6 +7,7 @@
 
     define('CATALOG_IBLOCK_ID', 73);                  
     define('EXCHANGE_1C_USER', 4);
+    define('ENTITY', 5); // Свойство пользователя UF_CONTRAGENT Юр. лицо.
 
     function arshow($array, $adminCheck = false, $dieAfterArshow = false){
         global $USER;
@@ -24,7 +25,8 @@
         }
     }
     
-    function logger($data, $file) {
+    function logger($data, $file = "log.log") {
+        $file = $_SERVER['DOCUMENT_ROOT'].'/'.$file;
         file_put_contents(
             $file,
             var_export($data, 1)."\n",
@@ -110,7 +112,10 @@
     AddEventHandler("sale", "OnSaleComponentOrderOneStepPersonType", "selectSavedPersonType");
     function selectSavedPersonType(&$arResult, &$arUserResult, $arParams)
     {
-        if ( CSite::InGroup( array(9) )){
+        global $USER;
+        $user =  $USER->GetByID($USER->GetID())->Fetch();
+  
+        if ( $user["UF_CONTRAGENT"] ==  5){
             $arResult['PERSON_TYPE'][1]['CHECKED'] = 'N';
             $arUserResult['PERSON_TYPE_ID'] = 3;
             $arResult['PERSON_TYPE'][3]['CHECKED'] = 'Y';     
@@ -118,7 +123,7 @@
             $arResult['PERSON_TYPE'][1]['CHECKED'] = 'Y';
             $arUserResult['PERSON_TYPE_ID'] = 1;
             $arResult['PERSON_TYPE'][3]['CHECKED'] = 'N';     
-        } 
+        }    
     }
 
 
@@ -533,10 +538,28 @@
             unset($arFields['ACTIVE']);   
              
             $order_log = 'UNSET - Date: '.$date.'; ID: '.$arFields['ID'];
-            $file = $_SERVER['DOCUMENT_ROOT'].'/local/php_interface/include/update_log.log';  
-            logger($order_log, $file); 
+            $file = $_SERVER['DOCUMENT_ROOT'].'/local/php_interface/include/update_log.log';   
         }       
     }   
+    
+    AddEventHandler("main", "OnAfterUserLogin", "CheckBasket");
+
+    function CheckBasket(&$fields)
+    {
+        global $USER;
+        if ($fields["USER_ID"] > 0) {
+            $arUsers = $USER->GetList(($by = "personal_country"), ($order = "desc"), array("ID"=>$fields["USER_ID"]), array("SELECT" => array("UF_CONTRAGENT")))->Fetch();
+            if ($arUsers["UF_CONTRAGENT"] == ENTITY) {
+                $test = CSaleBasket::GetList(array(), array("USER_ID" => $fields["USER_ID"], "ORDER_ID" => "NULL"));
+                while ($result = $test->GetNext()) {
+                    $res = CIBlockElement::GetList(Array(), array("ID" => $result["PRODUCT_ID"]),false, false, array("PROPERTY_HIDE_OPT", "ID"))->GetNext();
+                    if ($res["PROPERTY_HIDE_OPT_VALUE"] == 1) {
+                        CSaleBasket::Delete($result["ID"]);  
+                    }                        
+                }    
+            }                                
+        }    
+    }
                                                                                                                                  
 
 

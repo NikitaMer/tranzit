@@ -215,6 +215,8 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
 
                         echo '<div class="sep line"></div>';
 
+
+
                         if ($arParams["DELIVERY_TO_PAYSYSTEM"] == "p2d")
                         {
                             echo '<!-- p2d -->';
@@ -283,7 +285,7 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
                     <input type="hidden" name="is_ajax_post" id="is_ajax_post" value="Y">
                     <input type="hidden" name="json" value="Y">
 
-                    <div class="uconsent">                
+                    <div class="uconsent">
                         <?if ($arParams['USER_CONSENT'] == 'Y'):?>
                             <?$APPLICATION->IncludeComponent(
                              "bitrix:main.userconsent.request",
@@ -365,3 +367,11 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
 Стоимость может незначительно отличатся в зависимости от поставки.
 </b>
 </div>
+
+<script type="text/javascript">
+ ga('require', 'ecommerce', 'ecommerce.js');
+  ga('ecommerce:addTransaction', {
+    'id': {/literal}{$orderidd}{literal}
+  });
+  ga('ecommerce:send');
+</script>

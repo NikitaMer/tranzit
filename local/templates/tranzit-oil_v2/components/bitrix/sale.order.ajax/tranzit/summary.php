@@ -95,8 +95,9 @@ $skidka = $arResult["MAX_BONUS"];
 				}
 			}
 			*/
-
-			if (doubleval($arResult["DELIVERY_PRICE"]) > 0)
+            
+            
+			if (doubleval($arResult["DELIVERY_PRICE"]) > 0 && $user["UF_CONTRAGENT"] != 5)
 			{
 				?>
 				<dl class="prop w100">

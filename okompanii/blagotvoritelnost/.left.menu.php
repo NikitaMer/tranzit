@@ -34,6 +34,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"БЛАГОТВОРИТЕЛЬНАЯ АКЦИЯ 2017", 
+		"/okompanii/blagotvoritelnost/blagotvoritelnaya-aktsiya-2017/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>

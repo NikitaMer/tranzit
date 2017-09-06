@@ -73,7 +73,7 @@ if($CSiteController->isMainPage() && CModule::IncludeModule("advertising"))
             <div class="item shop">
 
                 <div class="wrapper center-block">
-                                
+
                     <div class="title">Интернет магазин<br>автотоваров</div>
                     <div class="desc">Наш интернет-магазин - это удобный сервис по поиску, подбору и покупке автомобильных товаров с бесплатной доставкой по городу Казани. Вам больше не надо тратить время на поиски. Наши специалисты помогут Вам с выбором, а цены приятно удивят.
                     </div>
@@ -122,7 +122,7 @@ if($CSiteController->isMainPage() && CModule::IncludeModule("advertising"))
     ?>
 
 	<div id="main-slider-navigation" class="navigation wrapper center-block">
-		
+
 		<a href="#" data-target="prev" class="slider-nav prev custom"></a>
 		<a href="#" data-target="next" class="slider-nav next custom"></a>
 
@@ -148,7 +148,7 @@ if($CSiteController->isMainPage() && CModule::IncludeModule("advertising"))
 		</ul>
 
 	</div>
-	
+
 	<script>
 		$(function(){
 
