@@ -50,9 +50,9 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"SHOW_VAT_PRICE" => "Y",
 		"COMPATIBLE_MODE" => "Y",
 		"USE_PRELOAD" => "Y",
-		"USER_CONSENT" => "N",
-		"USER_CONSENT_ID" => "0",
-		"USER_CONSENT_IS_CHECKED" => "Y",
+		"USER_CONSENT" => "Y",
+		"USER_CONSENT_ID" => "2",
+		"USER_CONSENT_IS_CHECKED" => "N",
 		"USER_CONSENT_IS_LOADED" => "N",
 		"ACTION_VARIABLE" => "action",
 		"PRODUCT_COLUMNS_VISIBLE" => array(

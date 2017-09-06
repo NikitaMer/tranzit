@@ -36,7 +36,7 @@ $theme = $request->getQuery('theme');
 		<br><br><br>
 		<a class="button yellow" href="">Перейти на сайт</a>
 		</span>
-		
+
 	</div>
 
 <?else:?>
@@ -48,13 +48,13 @@ $theme = $request->getQuery('theme');
             <?if($arResult["BACKURL"] <> ''):?>
                 <input type="hidden" name="backurl" value="<?=$arResult["BACKURL"]?>" />
             <?endif;?>
-			
+
             <input type="hidden" name="REGISTER[CONFIRM_PASSWORD]" value="mypass" autocomplete="off">
 
 			<?/*if($arResult["USE_EMAIL_CONFIRMATION"] === "Y"):?>
 			<p><?=GetMessage("REGISTER_EMAIL_WILL_BE_SENT")?></p>
 			<?endif;*/?>
-		
+
         <?foreach ($arResult["SHOW_FIELDS"] as $FIELD):?>
 		<?
 		//echo '<pre>'; print_r($FIELD); echo '</pre>';
@@ -194,8 +194,8 @@ $theme = $request->getQuery('theme');
 					<input type="file" name="REGISTER[PROPERTY_UF_DOC_FILES[]]" value="<?=$arResult["VALUES"]['PROPERTY_UF_FILE']?>">
 				</div>
 				<p>*Учетная запись будет активирована после проверки данных модератором</p>
-				
-			</div>							
+
+			</div>
             <?
             // ******************** /User properties ***************************************************
 
@@ -216,24 +216,38 @@ $theme = $request->getQuery('theme');
                 <?
             }
             /* !CAPTCHA */
-
+			if (count($arResult["ERRORS"]) > 0)
+			{
             ?>
-            <div class="error_text">
-                <?
-                if (count($arResult["ERRORS"]) > 0)
-                {
-                    foreach ($arResult["ERRORS"] as $key => $error)
-                        if (intval($key) == 0 && $key !== 0)
-                            $arResult["ERRORS"][$key] = str_replace("#FIELD_NAME#", "&quot;".GetMessage("REGISTER_FIELD_".$key)."&quot;", $error);
+	            <div class="error_text">
+	                <?
+	                    foreach ($arResult["ERRORS"] as $key => $error)
+	                        if (intval($key) == 0 && $key !== 0)
+	                            $arResult["ERRORS"][$key] = str_replace("#FIELD_NAME#", "&quot;".GetMessage("REGISTER_FIELD_".$key)."&quot;", $error);
 
-                    ShowError(implode("<br />", $arResult["ERRORS"]));
-
-                }
-                ?>
-            </div>
+	                    ShowError(implode("<br />", $arResult["ERRORS"]));
+	                ?>
+	            </div>
+			<?}?>
 
 
-
+			<?$APPLICATION->IncludeComponent(
+			 "bitrix:main.userconsent.request",
+			 "",
+			 array(
+				 "ID" => $arParams["USER_CONSENT_ID"],
+				 "IS_CHECKED" => $arParams["USER_CONSENT_IS_CHECKED"],
+				 "AUTO_SAVE" => "Y",
+				 "IS_LOADED" => $arParams["USER_CONSENT_IS_LOADED"],
+				 "REPLACE" => array(
+				  'button_caption' => GetMessage("AUTH_REGISTER"),
+				  'fields' => array('Email', 'Имя')
+				 ),
+			 )
+			);?>
+			<div >
+				<p style="text-align:justify;font-size: 10px;line-height: 12px;">	Нажимая кнопку «<?=GetMessage("AUTH_REGISTER")?>», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», <a href="/documents/agreement_.pdf" target="_blank">на условиях и для целей, определенных в Согласии на обработку персональных данных</a></p>
+			</div>
             <div class="buttons">
                 <button class="yellow" type="submit" name="register_submit_button" value="Y"><?=GetMessage("AUTH_REGISTER")?></button>
             </div>

@@ -10,7 +10,7 @@ $theme_class = $theme_class ? ' '.$theme_class : '';
 $home_page = SITE_DIR;
 $path = $GLOBALS['APPLICATION']->GetCurPage(false);
 $is_shop_main = $path == '/shop/';
-						
+
 switch($CSiteController->getSiteSection())
 {
 	case $CSiteController::SECT_SINCENTER:
@@ -32,7 +32,7 @@ if(Bitrix\Main\Loader::includeModule('wsm.favorites'))
     Wsm\Favorites::ScriptInc();
     //CWSMFavorites::ScriptInc();
 }
-$APPLICATION->SetPageProperty("description",  'Интернет-магазин автотоваров Tranzit-shop.ru с доставкой по Казани и Наб. Челнам'); 
+$APPLICATION->SetPageProperty("description",  'Интернет-магазин автотоваров Tranzit-shop.ru с доставкой по Казани и Наб. Челнам');
 ?><!DOCTYPE html>
 <html lang="<?=LANGUAGE_ID?>">
     <head>
@@ -48,7 +48,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
 	    <?/* <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		*/?>
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		
+
 		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/jquery.easing.1.3.min.js')?>"></script>
 		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/fancyapp/jquery.fancybox.pack.js')?>"></script>
 		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/fancyapp/jquery.fancybox.css?v=2.1.5" media="screen" />
@@ -64,7 +64,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 		<?$APPLICATION->ShowHead();?>
-	</head> 
+	</head>
 	<body>
 
         <?$APPLICATION->ShowPanel();?>
@@ -72,8 +72,8 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
         <!-- start container -->
 		<div class="container<?=$theme_class?><?if($CSiteController->getSiteSection() == $CSiteController::SECT_SHOP):?> bottom-line<?endif;?>">
 
-				
-		
+
+
 			<div class="top-menu">
 				<div class="wrapper center-block">
 
@@ -95,7 +95,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
                         ),
                         false
                     );?>
-					
+
 					<!-- Соц. кнопки -->
 					<div class="soc" style="display:none;">
 					    <a href="https://vk.com/tranzitshop" target="_blank"><img src="/local/templates/tranzit-oil_v2/img/vk.png"></a>
@@ -121,7 +121,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
                         ),
                         false
                     );*/?>
-						
+
                     <!--<script>
                         /*$(function(){
                             var inp = $('.top-menu .search-line input[type=text]');
@@ -138,10 +138,10 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
                         })*/
                     </script>-->
 
-					
+
 				</div>
 			</div>
-			
+
 			<header>
 				<div class="wrapper center-block">
 					<?if($CSiteController->isMainPage()):?>
@@ -240,7 +240,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
 							</div>
 						</div>
                         <!-- end personal icon-->
-					
+
 					</div>
                     <!-- end top icon blocks -->
 				</div>
@@ -311,7 +311,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
                                 include(dirname(__FILE__).'/banner/left_banners.php');
                             ?>
 
-                            
+
 						</div>
                         <!-- END left column -->
 
