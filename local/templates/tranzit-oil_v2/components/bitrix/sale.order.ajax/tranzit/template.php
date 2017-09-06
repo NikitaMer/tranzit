@@ -215,8 +215,8 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
 
                         echo '<div class="sep line"></div>';
 
-                        
-                        
+
+
                         if ($arParams["DELIVERY_TO_PAYSYSTEM"] == "p2d")
                         {
                             echo '<!-- p2d -->';
@@ -233,7 +233,7 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
                             echo '<!-- delivery -->';
                             include($_SERVER["DOCUMENT_ROOT"].$templateFolder."/delivery.php");
                             echo '<!-- /delivery -->';
-                            
+
                             foreach($arResult["ORDER_PROP"]["RELATED"] as $index => $prop)
                             {
                                 if($prop['CODE'] == 'DELIVERY_ADRES' || $prop['CODE'] == 'SHOP')
@@ -284,6 +284,25 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
                     <input type="hidden" name="profile_change" id="profile_change" value="N">
                     <input type="hidden" name="is_ajax_post" id="is_ajax_post" value="Y">
                     <input type="hidden" name="json" value="Y">
+
+                    <div class="uconsent">
+                        <?if ($arParams['USER_CONSENT'] == 'Y'):?>
+                            <?$APPLICATION->IncludeComponent(
+                             "bitrix:main.userconsent.request",
+                             "",
+                             array(
+                                 "ID" => $arParams["USER_CONSENT_ID"],
+                                 "IS_CHECKED" => $arParams["USER_CONSENT_IS_CHECKED"],
+                                 "AUTO_SAVE" => "Y",
+                                 "IS_LOADED" => $arParams["USER_CONSENT_IS_LOADED"],
+                                 "REPLACE" => array(
+                                  'button_caption' => 'Оформить заказ',
+                                  'fields' => array('Email', 'Телефон', 'Имя' , 'Почтовый адрес')
+                                 ),
+                             )
+                            );?>
+                       <?endif;?>
+                   </div>
 
                     <div class="bx_ordercart_order_pay_center">
                         <a class="button yellow round" href="javascript:void();" onclick="submitForm('Y'); return false;" id="ORDER_CONFIRM_BUTTON"><?=GetMessage("SOA_TEMPL_BUTTON")?></a>
@@ -355,4 +374,4 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
     'id': {/literal}{$orderidd}{literal}
   });
   ga('ecommerce:send');
-</script>             
+</script>

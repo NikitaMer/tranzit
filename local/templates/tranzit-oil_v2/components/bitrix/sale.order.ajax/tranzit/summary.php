@@ -19,7 +19,7 @@ $id=$a[ITEMS][AnDelCanBuy][$kk][ID];
  unset($a[ITEMS][AnDelCanBuy][$kk]);
  unset($a[GRID][ROWS][$id]);
 
-} else 
+} else
 {
 $id=$a[ITEMS][AnDelCanBuy][$kk][ID];
 $allSum=$allSum+$a[GRID][ROWS][$id][PRICE]*$a[GRID][ROWS][$id][QUANTITY];
@@ -31,7 +31,7 @@ $allSum=$allSum+$a[GRID][ROWS][$id][PRICE]*$a[GRID][ROWS][$id][QUANTITY];
 // $allSum Предзаказ
 
 
-$CSiteController = SiteController::getEntity(); 
+$CSiteController = SiteController::getEntity();
 $skidka = $arResult["MAX_BONUS"];
 ?>
 
@@ -39,15 +39,15 @@ $skidka = $arResult["MAX_BONUS"];
     function changePrice()
     {
         var a = $(".bonuse_price").html();
-        if ($("#ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").prop("checked")===true) { 
-            $("#priceoff").css("display","none"); 
+        if ($("#ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").prop("checked")===true) {
+            $("#priceoff").css("display","none");
             $("#priceon").css("display","block");
             $("#ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").val(a);
-        } else { 
-            $("#priceon").css("display","none"); 
+        } else {
+            $("#priceon").css("display","none");
             $("#priceoff").css("display","block");
             $("#ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>").val(0);
-        }    
+        }
     }
 </script>
 	<div class="field data">
@@ -63,10 +63,10 @@ $skidka = $arResult["MAX_BONUS"];
 
 <?
 
-?>               
-                <input type="text" style="display: none" onchange="submitForm();" maxlength="250" size="0" name="ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>" id="ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>">            
+?>
+                <input type="text" style="display: none" onchange="submitForm();" maxlength="250" size="0" name="ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>" id="ORDER_PROP_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>">
                 <dt> <input OnChange='changePrice();' style="width:15px;" type="checkbox" name="ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>" id="ORDER_<?=$arResult["ORDER_PROP_PAYMENT_BONUS_ID"]?>"> <span style="float:right;margin-top:6px;margin-left:-20px;">Использовать бонус</span></dt>
-				
+
 				<dd style='margin-top:6px;'><font class="bonuse_price" ><?=round($skidka);?></font> <span>руб.</span></dd>
 			</dl>
 			<?
@@ -137,7 +137,7 @@ $skidka = $arResult["MAX_BONUS"];
 					<dt>К оплате</dt>
                     <dd><div id='priceoff'><?=$CSiteController->getHtmlFormatedPrice($arResult["BASE_LANG_CURRENCY"], $arResult["ORDER_PRICE"] );?></div></dd>
                     <dd><div id='priceon' style='display:none;'><?=$CSiteController->getHtmlFormatedPrice($arResult["BASE_LANG_CURRENCY"], $arResult["ORDER_PRICE"] - $arResult["MAX_BONUS"]);?></div></dd>
-					
+
 					<?//=$arResult["ORDER_TOTAL_PRICE_FORMATED"]?>
 				</dl>
 			<?
@@ -153,7 +153,3 @@ $skidka = $arResult["MAX_BONUS"];
 
 		</div>
 	</div>
-
-
-
-
