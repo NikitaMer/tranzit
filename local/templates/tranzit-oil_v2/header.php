@@ -32,7 +32,7 @@ if(Bitrix\Main\Loader::includeModule('wsm.favorites'))
     Wsm\Favorites::ScriptInc();
     //CWSMFavorites::ScriptInc();
 }
-$APPLICATION->SetPageProperty("description",  'Интернет-магазин автотоваров Tranzit-shop.ru с доставкой по Казани и Наб. Челнам');
+$APPLICATION->SetPageProperty("description",  'Интернет-магазин автотоваров Tranzit-Shop.ru с доставкой по Казани и Наб. Челнам');
 ?><!DOCTYPE html>
 <html lang="<?=LANGUAGE_ID?>">
     <head>
@@ -64,7 +64,7 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 		<?$APPLICATION->ShowHead();?>
-
+        <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-159447-3IXoa';</script>
 	</head>
 	<body>
 
