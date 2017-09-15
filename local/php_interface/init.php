@@ -84,7 +84,7 @@
             $arEventFields = array(
                 "EMAIL"       => $arFields['EMAIL'],
             );
-            $arrSITE =  CAdvContract::GetSiteArray($CONTRACT_ID);
+            //$arrSITE =  CAdvContract::GetSiteArray($CONTRACT_ID);
 
             CEvent::Send("ACTIVATE_UR",'s1', $arEventFields);
         }
