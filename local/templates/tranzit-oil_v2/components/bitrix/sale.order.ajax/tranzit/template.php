@@ -347,4 +347,12 @@ CJSCore::Init(array('fx', 'popup', 'window', 'ajax'));
 *Предзаказ товаров осуществляется без предоплаты, оплата при получении. <br>
 Стоимость может незначительно отличатся в зависимости от поставки.
 </b>
-</div>             
+</div>
+
+<script type="text/javascript">
+ ga('require', 'ecommerce', 'ecommerce.js');
+  ga('ecommerce:addTransaction', {
+    'id': {/literal}{$orderidd}{literal}
+  });
+  ga('ecommerce:send');
+</script>             

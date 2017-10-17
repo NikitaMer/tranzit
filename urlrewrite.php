@@ -43,12 +43,6 @@ $arUrlRewrite = array(
 		"PATH" => "/okompanii/klienty/index.php",
 	),
 	array(
-		"CONDITION" => "#^/online/(/?)([^/]*)#",
-		"RULE" => "",
-		"ID" => "",
-		"PATH" => "/desktop_app/router.php",
-	),
-	array(
 		"CONDITION" => "#^/okompanii/brendy/#",
 		"RULE" => "",
 		"ID" => "bitrix:news.list",

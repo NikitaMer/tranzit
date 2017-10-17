@@ -21,10 +21,10 @@ $arResult['BONUS_AMOUNT'] = 0;
 $arResult['SIMILAR_ID'] = array();
 
 $arResult['CATALOG_QUANTITY'] = (
-	0 < $arResult['CATALOG_QUANTITY'] && is_float($arResult['CATALOG_MEASURE_RATIO'])
-	? (float)$arResult['CATALOG_QUANTITY']
-	: (int)$arResult['CATALOG_QUANTITY']
-	);
+    0 < $arResult['CATALOG_QUANTITY'] && is_float($arResult['CATALOG_MEASURE_RATIO'])
+    ? (float)$arResult['CATALOG_QUANTITY']
+    : (int)$arResult['CATALOG_QUANTITY']
+    );
 
 $arResult['CATALOG'] = false;
 
@@ -40,11 +40,11 @@ function cmpCount($a, $b)
 
 if (!empty($arResult['DISPLAY_PROPERTIES']))
 {
-	foreach ($arResult['DISPLAY_PROPERTIES'] as $propKey => $arDispProp)
-	{
-		if ('F' == $arDispProp['PROPERTY_TYPE'])
-			unset($arResult['DISPLAY_PROPERTIES'][$propKey]);
-	}
+    foreach ($arResult['DISPLAY_PROPERTIES'] as $propKey => $arDispProp)
+    {
+        if ('F' == $arDispProp['PROPERTY_TYPE'])
+            unset($arResult['DISPLAY_PROPERTIES'][$propKey]);
+    }
 }
 
 #========================================================================
@@ -72,38 +72,38 @@ while($ob = $res->GetNextElement(false, false))
 $arResult['MORE_PHOTO'] = $arResult['PROPERTIES']['MORE_PHOTO']['VALUE'];
 
 if(!is_array($arResult['MORE_PHOTO']))
-	$arResult['MORE_PHOTO'] = array();
+    $arResult['MORE_PHOTO'] = array();
 
 unset($arResult['PROPERTIES']['MORE_PHOTO']);
 
 $main_picture = $arResult['DETAIL_PICTURE']['ID'];
 
 if(!$main_picture && $arResult['PREVIEW_PICTURE'])
-	$main_picture = $arResult['PREVIEW_PICTURE']['ID'];
+    $main_picture = $arResult['PREVIEW_PICTURE']['ID'];
 
 if($main_picture)
-	$arResult['MORE_PHOTO'] = array_merge(array($main_picture), $arResult['MORE_PHOTO']);
+    $arResult['MORE_PHOTO'] = array_merge(array($main_picture), $arResult['MORE_PHOTO']);
 
 
 $first = true;
 $tmp = array();
 
 if(!is_array($arResult['MORE_PHOTO']))
-	$arResult['MORE_PHOTO']= array();
+    $arResult['MORE_PHOTO']= array();
 
 foreach($arResult['MORE_PHOTO'] as $pid)
 {
-	if($first)
-		$sm = CFile::ResizeImageGet($pid, array('width'=>335, 'height'=>335), BX_RESIZE_IMAGE_PROPORTIONAL, true);
-	else
-		$sm = CFile::ResizeImageGet($pid, array('width'=>69, 'height'=>69), BX_RESIZE_IMAGE_PROPORTIONAL, true);
+    if($first)
+        $sm = CFile::ResizeImageGet($pid, array('width'=>335, 'height'=>335), BX_RESIZE_IMAGE_PROPORTIONAL, true);
+    else
+        $sm = CFile::ResizeImageGet($pid, array('width'=>69, 'height'=>69), BX_RESIZE_IMAGE_PROPORTIONAL, true);
 
-	$tmp[] = array(
-		'thumb_s' => $sm,
-		'thumb_b' => CFile::ResizeImageGet($pid, array('width'=>800, 'height'=>800), BX_RESIZE_IMAGE_PROPORTIONAL, true),
-		);
+    $tmp[] = array(
+        'thumb_s' => $sm,
+        'thumb_b' => CFile::ResizeImageGet($pid, array('width'=>800, 'height'=>800), BX_RESIZE_IMAGE_PROPORTIONAL, true),
+        );
 
-	$first = false;
+    $first = false;
 }
 
 $arResult['MORE_PHOTO']= $tmp;
@@ -120,28 +120,28 @@ unset($tmp);
 $arResult['SIMILAR'] = array();
 
 $arSelect = Array(
-	"ID",
-	"IBLOCK_ID",
-	"NAME",
-	"DETAIL_PAGE_URL",
-	"PROPERTY_*"
-	);
+    "ID",
+    "IBLOCK_ID",
+    "NAME",
+    "DETAIL_PAGE_URL",
+    "PROPERTY_*"
+    );
 
 $arFilter = Array(
-	"IBLOCK_ID"	  => $arParams['IBLOCK_ID'],
-	"ACTIVE_DATE" => "Y",
-	"ACTIVE"	  => "Y",
-	"IBLOCK_SECTION_ID" => $arResult["IBLOCK_SECTION_ID"]
-	);
+    "IBLOCK_ID"      => $arParams['IBLOCK_ID'],
+    "ACTIVE_DATE" => "Y",
+    "ACTIVE"      => "Y",
+    "IBLOCK_SECTION_ID" => $arResult["IBLOCK_SECTION_ID"]
+    );
 
 $res = CIBlockElement::GetList(Array('NAME' => 'ASC'), $arFilter, false, Array("nPageSize"=>10), $arSelect);
 while($ob = $res->GetNextElement(true, false))
 {
-	$arFields = $ob->GetFields();
-	$arFields['PROP'] = $ob->GetProperties();
+    $arFields = $ob->GetFields();
+    $arFields['PROP'] = $ob->GetProperties();
 
-	#echo '<pre>'.print_r($arFields, true).'</pre>';
-	$arResult['SIMILAR'][] = $arFields;
+    #echo '<pre>'.print_r($arFields, true).'</pre>';
+    $arResult['SIMILAR'][] = $arFields;
 }
 
 UF_SEARCH_SIMILAR
@@ -188,7 +188,7 @@ if(\Bitrix\Main\Loader::includeModule('iblock'))
     $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM");
     $arFilter = Array(
         "!ID" => $arResult['ID'],
-		"IBLOCK_ID" => $arParams['IBLOCK_ID'],
+        "IBLOCK_ID" => $arParams['IBLOCK_ID'],
         "ACTIVE_DATE" => "Y",
         "ACTIVE" => "Y",
         "INCLUDE_SUBSECTIONS" => "Y",
@@ -197,11 +197,11 @@ if(\Bitrix\Main\Loader::includeModule('iblock'))
 
     $arUsedProp = array();
 
-	if(!empty($arResult['PROPERTIES']) && is_array($arResult['PROPERTIES']))
-	{
-		$aPropFilter = array('LOGIC' => 'OR');
+    if(!empty($arResult['PROPERTIES']) && is_array($arResult['PROPERTIES']))
+    {
+        $aPropFilter = array('LOGIC' => 'OR');
 
-		foreach($arResult['PROPERTIES'] as $code => $d)
+        foreach($arResult['PROPERTIES'] as $code => $d)
         {
             if($code == 'DONACENKI' || $code == 'PRODUCT_OFFER' || $code == 'BUY_WITH' || $d['PROPERTY_TYPE'] == 'E')
                 continue;
@@ -224,11 +224,11 @@ if(\Bitrix\Main\Loader::includeModule('iblock'))
                 $arSelect[] = 'PROPERTY_'.$code;
         }
 
-		$arFilter[] = $aPropFilter;
-	}
+        $arFilter[] = $aPropFilter;
+    }
 
-	#echo '<!-- filter: <pre>'.print_r($arFilter, true).' -->';
-	#echo '<!-- $arUsedProp: <pre>'.print_r($arUsedProp, true).' -->';
+    #echo '<!-- filter: <pre>'.print_r($arFilter, true).' -->';
+    #echo '<!-- $arUsedProp: <pre>'.print_r($arUsedProp, true).' -->';
 
     $res = CIBlockElement::GetList(array('SORT' => 'ASC'), $arFilter, false, false, $arSelect);
     echo '<!-- founded : '. $res->SelectedRowsCount().' -->';
@@ -281,9 +281,9 @@ $cp = $this->__component; // объект компонента
 
 if (is_object($cp))
 {
-	$cp->arResult['DISPLAY_PROPERTIES'] = $arResult['DISPLAY_PROPERTIES'];
-	//$cp->arResult['SIMILAR_ID'] = $arResult['SIMILAR_ID'];
-	$cp->SetResultCacheKeys(array('DISPLAY_PROPERTIES'));
+    $cp->arResult['DISPLAY_PROPERTIES'] = $arResult['DISPLAY_PROPERTIES'];
+    //$cp->arResult['SIMILAR_ID'] = $arResult['SIMILAR_ID'];
+    $cp->SetResultCacheKeys(array('DISPLAY_PROPERTIES'));
 }
 
 
