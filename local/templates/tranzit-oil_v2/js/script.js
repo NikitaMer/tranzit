@@ -241,9 +241,21 @@ $(document).ready(function () {
         $(this).next().click();
         });
 
-
+    $("input[name='phone']").mask('+7(999)999-99-99');
+            
+    
 });
-
+$(document).mouseup(function (e) {
+    if($(".block").is(e.target) && $(".add_car_form").css("right") == "0px"){
+        $(".add_car_form").animate({ right:'-560px' }, 200);        
+    }else{
+        if($(".block").is(e.target) || $(".add_car_form").is(e.target) ||  $(".add_car_form").find('*').is(e.target)){
+            $(".add_car_form").animate({ right:'0' }, 400);    
+        }else{
+            $(".add_car_form").animate({ right:'-560px' }, 200);    
+        }    
+    }           
+});
 
 
 //*****************************************************************

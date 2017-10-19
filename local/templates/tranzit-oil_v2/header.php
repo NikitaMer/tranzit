@@ -41,8 +41,8 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="robots" content="index, follow" />
 
-
-		<link href="<?=SITE_TEMPLATE_PATH?>/font/styles.min.css" type="text/css"  rel="stylesheet" />
+        <?$APPLICATION->SetAdditionalCss(SITE_TEMPLATE_PATH."/font/styles.css");?>
+		
 		<link type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.ico" rel="shortcut icon">
 
 	    <?/* <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,9 @@ $APPLICATION->SetPageProperty("description",  'Интернет-магазин �
 		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/fancyapp/jquery.fancybox.css?v=2.1.5" media="screen" />
 		<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/by_ko_styles.css" />
 		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/jquery.sudoSlider.min.js')?>"></script>
-		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/mail.js')?>"></script>
+        <script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/mail.js')?>"></script>
+        <script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/jquery.mask.js')?>"></script>
+		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/maskedinput.min.js')?>"></script>
 		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/add2compare.js')?>"></script>
 		<script src="<?=CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH.'/js/script.js')?>"></script>
 

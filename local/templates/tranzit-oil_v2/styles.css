@@ -2891,4 +2891,109 @@ form.mForm .files {
     .conf_form_wide{
         max-height: 70px;
     }
+}  
+
+
+
+.add_car_form{
+    background: #333333;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 0px 10px 10px 10px;
+    position: fixed;
+    z-index: 1000;
+    top: 220px;
+    right: -560px    
 }
+.add_car_form .text{
+    color: white;
+    width: 422px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'gotham_probold'; 
+    margin: 5px auto 20px auto; 
+}
+.add_car_form label{
+    display: inline-block; 
+    padding: 5px;    
+}
+.add_car_form .mark{
+    width: 275px;
+}
+.add_car_form .year{
+    width: 187px;
+}
+.add_car_form .cap, .add_car_form .HP{
+    width: 231px;
+} 
+.add_car_form .name{
+    width: 122px;
+}
+.add_car_form .phone{
+    width: 200px;
+}
+.add_car_form .email{
+    width: 122px;
+}
+.add_car_form input, .add_car_form textarea{
+    width: 480px;
+    padding-left: 7.5px;
+    border: 1px solid #8B8B88;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 41px;     
+}
+.add_car_form textarea{
+    height: 100px;
+    padding-top: 7.5px;
+    resize: vertical;
+    width: 480px;
+}
+.label-padding-right{
+    padding-right: 2px !important; 
+}
+.label-padding-left{
+    padding-left: 2px !important; 
+}
+.add_car_form button{
+    background: #e30613;
+    border: none;
+    height: 50px;
+    color: #fff;
+    line-height: 8px;
+    padding: 0 23px;
+    font-size: 15px;
+    font-family: 'gotham_promedium';
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+}
+.add_car_form .block{
+    width: 40px;
+    height: 150px;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    background-color: #e30613;
+    border-radius: 10px 0 0 10px;   
+} 
+.add_car_form .block p{
+    transform: rotate(-90deg);
+    text-align: center;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'gotham_probold';
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 5px;    
+}  
