@@ -35,7 +35,7 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 	elseif(strlen($request->getQuery('PHONE')) <5)
 	{
 		$out['ERROR'] = true;
-		$out['MESSAGE']['PHONE'] = 'Введен не корректный номер теелфона';
+		$out['MESSAGE']['PHONE'] = 'Введен не корректный номер телефона';
 	}
     $strOrderList = "";
 
@@ -218,6 +218,9 @@ if($request->getQuery('ajax') == 'Y' && $request->getQuery('create_order') == 'Y
 
 		<div class="error_text" style="display: none;"></div>
 
+		<div >
+			<p style="text-align:justify;font-size: 10px;line-height: 12px;">	Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», <a href="/documents/agreement_.pdf" target="_blank">на условиях и для целей, определенных в Согласии на обработку персональных данных</a></p>
+		</div>
 		<div class="buttons">
 			<button class="yellow round" type="submit" name="create_order" value="Y">Отправить</button>
 		</div>

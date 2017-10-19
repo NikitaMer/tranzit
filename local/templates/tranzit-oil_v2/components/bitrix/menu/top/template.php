@@ -7,11 +7,11 @@ $page = $APPLICATION->GetCurPage(false);
     <?
     $frame = $this->createFrame("site-top-menu", false)->begin();
     ?>
-	<ul class="layer1">
-		<li><a href="/"><?if($page == '/'):?>Главная<?else:?><div class="return"></div>На главную страницу<?endif;?></a></li>
-		<?
-		$previousLevel = 0;
-		foreach($arResult as $arItem):?>
+    <ul class="layer1">
+        <li><a href="/"><?if($page == '/'):?>Главная<?else:?><div class="return"></div>На главную страницу<?endif;?></a></li>
+        <?
+        $previousLevel = 0;
+        foreach($arResult as $arItem):?>
 
             <?
             if($arItem["PERMISSION"] <= "D")
@@ -20,39 +20,39 @@ $page = $APPLICATION->GetCurPage(false);
             $target = strpos($arItem["LINK"], 'http://') === 0 ? ' target="_blank"' : '';
             ?>
 
-			<?if ($previousLevel && $arItem["DEPTH_LEVEL"] < $previousLevel):?>
-				<?=str_repeat("</ul></li>", ($previousLevel - $arItem["DEPTH_LEVEL"]));?>
-			<?endif?>
-			
-			<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-			<li class="sep"></li>
-			<?endif?>
-			
-			<?if ($arItem["IS_PARENT"]):?>
+            <?if ($previousLevel && $arItem["DEPTH_LEVEL"] < $previousLevel):?>
+                <?=str_repeat("</ul></li>", ($previousLevel - $arItem["DEPTH_LEVEL"]));?>
+            <?endif?>
 
-				<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-					<li class="parent<?if ($arItem["SELECTED"]):?> current<?endif?>">
-						<a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>current<?endif?>"<?=$target?>><?=$arItem["TEXT"]?></a>
-						<span class="menu-down"></span>
-						<ul>
-				<?else:?>
-					<li<?if ($arItem["SELECTED"]):?> class="current"<?endif?>><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
-						<ul>
-				<?endif?>
+            <?if ($arItem["DEPTH_LEVEL"] == 1):?>
+            <li class="sep"></li>
+            <?endif?>
 
-			<?elseif ($arItem["PERMISSION"] > "D"):?>
-				<li<?if ($arItem["SELECTED"]):?> class="current"<?endif?>><a href="<?=$arItem["LINK"]?>"<?=$target?>><?=$arItem["TEXT"]?></a></li>
-			<?endif?>
+            <?if ($arItem["IS_PARENT"]):?>
 
-			<?$previousLevel = $arItem["DEPTH_LEVEL"];?>
+                <?if ($arItem["DEPTH_LEVEL"] == 1):?>
+                    <li class="parent<?if ($arItem["SELECTED"]):?> current<?endif?>">
+                        <a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>current<?endif?>"<?=$target?>><?=$arItem["TEXT"]?></a>
+                        <span class="menu-down"></span>
+                        <ul>
+                <?else:?>
+                    <li<?if ($arItem["SELECTED"]):?> class="current"<?endif?>><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a>
+                        <ul>
+                <?endif?>
 
-		<?endforeach?>
+            <?elseif ($arItem["PERMISSION"] > "D"):?>
+                <li<?if ($arItem["SELECTED"]):?> class="current"<?endif?>><a href="<?=$arItem["LINK"]?>"<?=$target?>><?=$arItem["TEXT"]?></a></li>
+            <?endif?>
 
-		<?if ($previousLevel > 1)://close last item tags?>
-			<?=str_repeat("</ul></li>", ($previousLevel-1) );?>
-		<?endif?>
+            <?$previousLevel = $arItem["DEPTH_LEVEL"];?>
 
-	</ul>
+        <?endforeach?>
+
+        <?if ($previousLevel > 1)://close last item tags?>
+            <?=str_repeat("</ul></li>", ($previousLevel-1) );?>
+        <?endif?>
+
+    </ul>
     <?
     $frame->beginStub();
 

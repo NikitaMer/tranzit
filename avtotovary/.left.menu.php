@@ -43,13 +43,6 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Видеорегистраторы", 
-		"/avtotovary/videoregistratory/", 
-		Array(), 
-		Array("class"=>"dvr"), 
-		"" 
-	),
-	Array(
 		"Грузовые шины", 
 		"/gruzoviye-shiny/", 
 		Array(), 

@@ -55,6 +55,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Политика конфиденциальности", 
+		"/shop/politika-konfidentsialnosti/", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>
