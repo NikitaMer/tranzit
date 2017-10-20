@@ -4,7 +4,8 @@ $arTemplateParameters = array(
 	"USER_PROPERTY_NAME"=>array(
 		"NAME" => GetMessage("USER_PROPERTY_NAME"),
 		"TYPE" => "STRING",
-		"DEFAULT" => "",	
+		"DEFAULT" => ""
 	),
+	"USER_CONSENT" => array()
 );
 ?>
