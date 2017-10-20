@@ -246,12 +246,12 @@ $(document).ready(function () {
     
 });
 $(document).mouseup(function (e) {
-    if($(".block").is(e.target) && $(".add_car_form").css("right") == "0px"){
+    if ($(".block").is(e.target) && $(".add_car_form").css("right") == "0px") {
         $(".add_car_form").animate({ right:'-560px' }, 200);        
-    }else{
-        if($(".block").is(e.target) || $(".add_car_form").is(e.target) ||  $(".add_car_form").find('*').is(e.target)){
+    } else {
+        if ($(".block").is(e.target) || $(".add_car_form").is(e.target) ||  $(".add_car_form").find('*').is(e.target)) {
             $(".add_car_form").animate({ right:'0' }, 400);    
-        }else{
+        } else {
             $(".add_car_form").animate({ right:'-560px' }, 200);    
         }    
     }           
