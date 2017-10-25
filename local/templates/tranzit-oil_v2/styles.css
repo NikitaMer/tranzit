@@ -2996,4 +2996,13 @@ form.mForm .files {
     position: absolute;
     top: 50px;
     left: 5px;    
+}
+.add_car_form input[type="checkbox"] {
+    width: 15px;
+    padding-left: 7.5px;
+    border: 1px solid #8B8B88;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 15px;    
 }  

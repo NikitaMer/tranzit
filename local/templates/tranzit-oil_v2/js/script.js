@@ -247,7 +247,10 @@ $(document).ready(function () {
     
 });
 $(document).mouseup(function (e) {
-    if ($(".block").is(e.target) && $(".add_car_form").css("right") == "0px") {
+    if($(".main-user-consent-request-popup").find('*').is(e.target) ||  $(".main-user-consent-request-popup").is(e.target)){
+        return true;
+    }
+    if (($(".block").is(e.target) && $(".add_car_form").css("right") == "0px") || ($(".block").find("p").is(e.target) && $(".add_car_form").css("right") == "0px")) {
         $(".add_car_form").animate({ right:'-560px' }, 200);        
     } else {
         if ($(".block").is(e.target) || $(".add_car_form").is(e.target) ||  $(".add_car_form").find('*').is(e.target)) {

@@ -23,8 +23,24 @@ $this->setFrameMode(false);
     <label class="label-padding-right"><input class="cap" placeholder="Объем двигателя, л"></label>        
     <label class="label-padding-left"><input class="HP" placeholder="Лошадиные силы, л.с."></label>
     <label><textarea cols="" rows="" placeholder="Перечень запасных частей"></textarea></label>
-    <label class="label-padding-right"><input class="name" placeholder="Имя"></label>        
-    <label class="label-padding-right label-padding-left"><input class="phone" name="phone" placeholder="Телефон"> </label>       
-    <label class="label-padding-left"><input class="email" placeholder="E-mail"></label>
+    <label class="label-padding-right"><input class="name" name="Имя" placeholder="Имя"></label>        
+    <label class="label-padding-right label-padding-left"><input class="phone" name="Телефон" name="phone" placeholder="Телефон"> </label>       
+    <label class="label-padding-left"><input class="email" name="Email" placeholder="E-mail"></label>
+    <?$APPLICATION->IncludeComponent(
+    "bitrix:main.userconsent.request", 
+    "", 
+    array(
+        "COMPONENT_TEMPLATE" => ".default",
+        "ID" => "2",
+        "IS_CHECKED" => "N",
+        "AUTO_SAVE" => "Y",
+        "IS_LOADED" => "N",
+        "REPLACE" => array(
+          'button_caption' => 'Отправить',
+          'fields' => array('Email', 'Телефон', 'Имя')
+         ),
+    ),
+    false
+);?>
     <button>Отправить</button>    	
 </form>
